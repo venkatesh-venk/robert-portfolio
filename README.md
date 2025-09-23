@@ -63,11 +63,34 @@ Replace placeholder images in the components with actual photos:
 
 ## Deployment
 
-The site can be deployed to any platform that supports Next.js:
+### GitHub Pages (Automated)
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+1. **Enable GitHub Pages**:
+   - Go to your repository settings
+   - Navigate to "Pages" section
+   - Set source to "GitHub Actions"
+
+2. **Push to main branch**:
+   - The workflow will automatically build and deploy your site
+   - Your site will be available at `https://yourusername.github.io/robert-portfolio`
+
+3. **Manual deployment**:
+   - You can also trigger deployment manually from the Actions tab
+
+### Other Deployment Options
 
 - **Vercel** (recommended): Connect your GitHub repository
-- **Netlify**: Build command: `npm run build`, Publish directory: `.next`
+- **Netlify**: Build command: `npm run build`, Publish directory: `out`
 - **AWS Amplify**: Connect your repository and use default settings
+
+## GitHub Actions Workflow
+
+The project includes a GitHub Actions workflow (`.github/workflows/deploy.yml`) that:
+- Builds the Next.js application
+- Exports it as a static site
+- Deploys to GitHub Pages automatically
 
 ## License
 
