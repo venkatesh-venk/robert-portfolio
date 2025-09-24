@@ -39,7 +39,7 @@ npm install
 npm run dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+3. Open [http://localhost:3000/robert-portfolio](http://localhost:3000/robert-portfolio) in your browser.
 
 ## Customization
 
