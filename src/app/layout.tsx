@@ -5,13 +5,13 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Robert Feradett - Political Portfolio",
-  description: "Official political portfolio and campaign website of Robert Feradett",
-  keywords: ["politics", "campaign", "election", "Robert Feradett", "government"],
-  authors: [{ name: "Robert Feradett" }],
+  title: "Robert Fradette - Political Portfolio",
+  description: "Official political portfolio and campaign website of Robert Fradette",
+  keywords: ["politics", "campaign", "election", "Robert Fradette", "government"],
+  authors: [{ name: "Robert Fradette" }],
   openGraph: {
-    title: "Robert Feradett - Political Portfolio",
-    description: "Official political portfolio and campaign website of Robert Feradett",
+    title: "Robert Fradette - Political Portfolio",
+    description: "Official political portfolio and campaign website of Robert Fradette",
     type: "website",
   },
 };

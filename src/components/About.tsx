@@ -51,7 +51,7 @@ const About = () => {
           >
             <div className="bg-gray-100 rounded-lg p-8 h-96 flex items-center justify-center">
               <p className="text-gray-500 text-center">
-                [Professional Photo of Robert Feradett]
+                [Professional Photo of Robert Fradette]
               </p>
             </div>
           </motion.div>
@@ -67,7 +67,7 @@ const About = () => {
               A Vision for Progress
             </h3>
             <p className="text-gray-600">
-              Robert Feradett has dedicated his career to building stronger communities 
+              Robert Fradette has dedicated his career to building stronger communities 
               through innovative policy solutions and collaborative leadership. His 
               approach combines data-driven decision making with genuine care for 
               the people he serves.
