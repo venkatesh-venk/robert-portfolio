@@ -2,23 +2,26 @@
 
 import { motion } from "framer-motion";
 import { Users, Heart, Shield } from "lucide-react";
+import { useTranslations } from '@/contexts/LocaleContext';
 
 const About = () => {
+  const t = useTranslations('About');
+
   const values = [
     {
       icon: Users,
-      title: "Community First",
-      description: "Putting the needs and voices of our community at the center of every decision."
+      title: t('values.communityFirst.title'),
+      description: t('values.communityFirst.description')
     },
     {
       icon: Heart,
-      title: "Compassionate Leadership",
-      description: "Leading with empathy and understanding to create positive change for all."
+      title: t('values.compassionateLeadership.title'),
+      description: t('values.compassionateLeadership.description')
     },
     {
       icon: Shield,
-      title: "Integrity & Transparency",
-      description: "Maintaining the highest standards of honesty and openness in all actions."
+      title: t('values.integrityTransparency.title'),
+      description: t('values.integrityTransparency.description')
     }
   ];
 
@@ -33,12 +36,10 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            About Robert
+            {t('title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            A dedicated public servant with over 15 years of experience in community 
-            development and policy making. Robert brings fresh perspectives and proven 
-            leadership to address the challenges facing our community.
+            {t('subtitle')}
           </p>
         </motion.div>
 
@@ -64,29 +65,23 @@ const About = () => {
             className="space-y-6"
           >
             <h3 className="text-2xl font-bold text-gray-900">
-              A Vision for Progress
+              {t('visionTitle')}
             </h3>
             <p className="text-gray-600">
-              Robert Fradette has dedicated his career to building stronger communities 
-              through innovative policy solutions and collaborative leadership. His 
-              approach combines data-driven decision making with genuine care for 
-              the people he serves.
+              {t('visionText1')}
             </p>
             <p className="text-gray-600">
-              With a background in public administration and community organizing, 
-              Robert understands both the challenges and opportunities that lie ahead 
-              for our district. He is committed to creating policies that promote 
-              economic growth, environmental sustainability, and social equity.
+              {t('visionText2')}
             </p>
             <div className="flex flex-wrap gap-4">
               <span className="bg-primary-100 text-primary-800 px-4 py-2 rounded-full text-sm font-medium">
-                Public Administration
+                {t('skills.publicAdministration')}
               </span>
               <span className="bg-primary-100 text-primary-800 px-4 py-2 rounded-full text-sm font-medium">
-                Community Development
+                {t('skills.communityDevelopment')}
               </span>
               <span className="bg-primary-100 text-primary-800 px-4 py-2 rounded-full text-sm font-medium">
-                Policy Innovation
+                {t('skills.policyInnovation')}
               </span>
             </div>
           </motion.div>

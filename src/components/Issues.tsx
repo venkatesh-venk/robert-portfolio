@@ -2,31 +2,34 @@
 
 import { motion } from "framer-motion";
 import { TrendingUp, Home, GraduationCap, Leaf } from "lucide-react";
+import { useTranslations } from '@/contexts/LocaleContext';
 
 const Issues = () => {
+  const t = useTranslations('Issues');
+
   const issues = [
     {
       icon: TrendingUp,
-      title: "Economic Development",
-      description: "Creating jobs and supporting local businesses through smart economic policies and infrastructure investment.",
+      title: t('economicDevelopment.title'),
+      description: t('economicDevelopment.description'),
       color: "bg-blue-100 text-blue-600"
     },
     {
       icon: Home,
-      title: "Affordable Housing",
-      description: "Addressing the housing crisis with innovative solutions that make homeownership accessible to all families.",
+      title: t('affordableHousing.title'),
+      description: t('affordableHousing.description'),
       color: "bg-green-100 text-green-600"
     },
     {
       icon: GraduationCap,
-      title: "Education Excellence",
-      description: "Investing in our schools and teachers to ensure every child has access to quality education and opportunities.",
+      title: t('educationExcellence.title'),
+      description: t('educationExcellence.description'),
       color: "bg-purple-100 text-purple-600"
     },
     {
       icon: Leaf,
-      title: "Environmental Protection",
-      description: "Protecting our natural resources and promoting sustainable practices for future generations.",
+      title: t('environmentalProtection.title'),
+      description: t('environmentalProtection.description'),
       color: "bg-emerald-100 text-emerald-600"
     }
   ];
@@ -42,11 +45,10 @@ const Issues = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Key Issues
+            {t('title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Robert is focused on addressing the most pressing challenges facing our community 
-            with practical, evidence-based solutions.
+            {t('subtitle')}
           </p>
         </motion.div>
 
@@ -81,7 +83,7 @@ const Issues = () => {
           className="text-center mt-12"
         >
           <button className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition-colors duration-200 shadow-lg hover:shadow-xl">
-            View Full Platform
+            {t('viewFullPlatform')}
           </button>
         </motion.div>
       </div>

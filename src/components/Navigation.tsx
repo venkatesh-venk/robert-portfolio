@@ -3,16 +3,19 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useTranslations } from '@/contexts/LocaleContext';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const t = useTranslations('Navigation');
 
   const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Issues", href: "#issues" },
-    { name: "Experience", href: "#experience" },
-    { name: "Contact", href: "#contact" },
+    { name: t('home'), href: "#home" },
+    { name: t('about'), href: "#about" },
+    { name: t('issues'), href: "#issues" },
+    { name: t('experience'), href: "#experience" },
+    { name: t('contact'), href: "#contact" },
   ];
 
   return (
@@ -38,6 +41,7 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
+              <LanguageSwitcher />
             </div>
           </div>
 
@@ -55,17 +59,20 @@ const Navigation = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {navItems.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-primary-600 block px-3 py-2 text-base font-medium transition-colors duration-200"
+                  className="text-gray-700 hover:text-primary-600 block px-3 py-2 text-base font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
                 </a>
               ))}
+              <div className="px-3 py-2">
+                <LanguageSwitcher />
+              </div>
             </div>
           </div>
         )}

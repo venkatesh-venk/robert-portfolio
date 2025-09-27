@@ -1,0 +1,129 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "issues": "Issues",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "name": "Robert Fradette",
+    "tagline": "A dedicated leader committed to serving our community with integrity, transparency, and progressive values.",
+    "learnMore": "Learn More",
+    "getInvolved": "Get Involved"
+  },
+  "About": {
+    "title": "About Robert",
+    "subtitle": "A dedicated public servant with over 15 years of experience in community development and policy making. Robert brings fresh perspectives and proven leadership to address the challenges facing our community.",
+    "visionTitle": "A Vision for Progress",
+    "visionText1": "Robert Fradette has dedicated his career to building stronger communities through innovative policy solutions and collaborative leadership. His approach combines data-driven decision making with genuine care for the people he serves.",
+    "visionText2": "With a background in public administration and community organizing, Robert understands both the challenges and opportunities that lie ahead for our district. He is committed to creating policies that promote economic growth, environmental sustainability, and social equity.",
+    "values": {
+      "communityFirst": {
+        "title": "Community First",
+        "description": "Putting the needs and voices of our community at the center of every decision."
+      },
+      "compassionateLeadership": {
+        "title": "Compassionate Leadership",
+        "description": "Leading with empathy and understanding to create positive change for all."
+      },
+      "integrityTransparency": {
+        "title": "Integrity & Transparency",
+        "description": "Maintaining the highest standards of honesty and openness in all actions."
+      }
+    },
+    "skills": {
+      "publicAdministration": "Public Administration",
+      "communityDevelopment": "Community Development",
+      "policyInnovation": "Policy Innovation"
+    }
+  },
+  "Issues": {
+    "title": "Key Issues",
+    "subtitle": "Robert is focused on addressing the most pressing challenges facing our community with practical, evidence-based solutions.",
+    "economicDevelopment": {
+      "title": "Economic Development",
+      "description": "Creating jobs and supporting local businesses through smart economic policies and infrastructure investment."
+    },
+    "affordableHousing": {
+      "title": "Affordable Housing",
+      "description": "Addressing the housing crisis with innovative solutions that make homeownership accessible to all families."
+    },
+    "educationExcellence": {
+      "title": "Education Excellence",
+      "description": "Investing in our schools and teachers to ensure every child has access to quality education and opportunities."
+    },
+    "environmentalProtection": {
+      "title": "Environmental Protection",
+      "description": "Protecting our natural resources and promoting sustainable practices for future generations."
+    },
+    "viewFullPlatform": "View Full Platform"
+  },
+  "Experience": {
+    "title": "Experience & Achievements",
+    "subtitle": "A proven track record of delivering results and making a positive impact in our community through dedicated public service.",
+    "professionalExperience": "Professional Experience",
+    "keyAchievements": "Key Achievements",
+    "education": "Education",
+    "experiences": {
+      "director": {
+        "year": "2018 - Present",
+        "title": "Community Development Director",
+        "organization": "City of Springfield",
+        "location": "Springfield, IL",
+        "description": "Led initiatives that resulted in 25% increase in affordable housing units and $2M in economic development grants."
+      },
+      "analyst": {
+        "year": "2015 - 2018",
+        "title": "Policy Analyst",
+        "organization": "State Legislature",
+        "location": "Springfield, IL",
+        "description": "Developed and analyzed legislation focused on education reform and environmental protection policies."
+      },
+      "organizer": {
+        "year": "2012 - 2015",
+        "title": "Community Organizer",
+        "organization": "Progressive Action Network",
+        "location": "Chicago, IL",
+        "description": "Organized grassroots campaigns that mobilized over 10,000 community members on key policy issues."
+      }
+    },
+    "achievements": [
+      "Led successful campaign for $50M school funding increase",
+      "Established community health initiative serving 5,000+ families",
+      "Championed environmental protection bill with bipartisan support",
+      "Created job training program with 85% employment success rate"
+    ],
+    "educationDetails": {
+      "degree": "Master of Public Administration",
+      "university": "University of Illinois at Chicago, 2012"
+    }
+  },
+  "Contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have questions or want to get involved? I would love to hear from you. Together, we can build a better future for our community.",
+    "contactInformation": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "office": "Office",
+    "campaignOfficeHours": "Campaign Office Hours",
+    "officeHours": {
+      "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "saturday": "Saturday: 10:00 AM - 4:00 PM",
+      "sunday": "Sunday: Closed"
+    },
+    "sendMessage": "Send a Message",
+    "form": {
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "sendMessage": "Send Message"
+    }
+  },
+  "LanguageSwitcher": {
+    "switchTo": "Switch to",
+    "english": "English",
+    "french": "Français"
+  }
+} 

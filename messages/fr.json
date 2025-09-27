@@ -1,0 +1,129 @@
+{
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "issues": "Enjeux",
+    "experience": "Expérience",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "name": "Robert Fradette",
+    "tagline": "Un leader dévoué engagé à servir notre communauté avec intégrité, transparence et valeurs progressistes.",
+    "learnMore": "En savoir plus",
+    "getInvolved": "S'impliquer"
+  },
+  "About": {
+    "title": "À propos de Robert",
+    "subtitle": "Un serviteur public dévoué avec plus de 15 ans d'expérience en développement communautaire et en élaboration de politiques. Robert apporte des perspectives nouvelles et un leadership éprouvé pour relever les défis auxquels fait face notre communauté.",
+    "visionTitle": "Une vision du progrès",
+    "visionText1": "Robert Fradette a consacré sa carrière à construire des communautés plus fortes grâce à des solutions politiques innovantes et un leadership collaboratif. Son approche combine la prise de décision basée sur les données avec un véritable souci des personnes qu'il sert.",
+    "visionText2": "Avec une formation en administration publique et en organisation communautaire, Robert comprend à la fois les défis et les opportunités qui nous attendent dans notre district. Il s'engage à créer des politiques qui favorisent la croissance économique, la durabilité environnementale et l'équité sociale.",
+    "values": {
+      "communityFirst": {
+        "title": "Communauté d'abord",
+        "description": "Mettre les besoins et les voix de notre communauté au centre de chaque décision."
+      },
+      "compassionateLeadership": {
+        "title": "Leadership compatissant",
+        "description": "Diriger avec empathie et compréhension pour créer un changement positif pour tous."
+      },
+      "integrityTransparency": {
+        "title": "Intégrité et transparence",
+        "description": "Maintenir les plus hauts standards d'honnêteté et d'ouverture dans toutes les actions."
+      }
+    },
+    "skills": {
+      "publicAdministration": "Administration publique",
+      "communityDevelopment": "Développement communautaire",
+      "policyInnovation": "Innovation politique"
+    }
+  },
+  "Issues": {
+    "title": "Enjeux clés",
+    "subtitle": "Robert se concentre sur l'approche des défis les plus pressants auxquels fait face notre communauté avec des solutions pratiques et fondées sur des preuves.",
+    "economicDevelopment": {
+      "title": "Développement économique",
+      "description": "Créer des emplois et soutenir les entreprises locales grâce à des politiques économiques intelligentes et des investissements en infrastructure."
+    },
+    "affordableHousing": {
+      "title": "Logement abordable",
+      "description": "Aborder la crise du logement avec des solutions innovantes qui rendent l'accession à la propriété accessible à toutes les familles."
+    },
+    "educationExcellence": {
+      "title": "Excellence en éducation",
+      "description": "Investir dans nos écoles et nos enseignants pour s'assurer que chaque enfant a accès à une éducation et à des opportunités de qualité."
+    },
+    "environmentalProtection": {
+      "title": "Protection de l'environnement",
+      "description": "Protéger nos ressources naturelles et promouvoir des pratiques durables pour les générations futures."
+    },
+    "viewFullPlatform": "Voir la plateforme complète"
+  },
+  "Experience": {
+    "title": "Expérience et réalisations",
+    "subtitle": "Un bilan éprouvé de résultats et d'impact positif dans notre communauté grâce à un service public dévoué.",
+    "professionalExperience": "Expérience professionnelle",
+    "keyAchievements": "Réalisations clés",
+    "education": "Éducation",
+    "experiences": {
+      "director": {
+        "year": "2018 - Présent",
+        "title": "Directeur du développement communautaire",
+        "organization": "Ville de Springfield",
+        "location": "Springfield, IL",
+        "description": "Dirigé des initiatives qui ont entraîné une augmentation de 25% des unités de logement abordable et 2M$ en subventions de développement économique."
+      },
+      "analyst": {
+        "year": "2015 - 2018",
+        "title": "Analyste de politiques",
+        "organization": "Législature d'État",
+        "location": "Springfield, IL",
+        "description": "Développé et analysé une législation axée sur la réforme de l'éducation et les politiques de protection de l'environnement."
+      },
+      "organizer": {
+        "year": "2012 - 2015",
+        "title": "Organisateur communautaire",
+        "organization": "Réseau d'action progressiste",
+        "location": "Chicago, IL",
+        "description": "Organisé des campagnes de base qui ont mobilisé plus de 10 000 membres de la communauté sur des enjeux politiques clés."
+      }
+    },
+    "achievements": [
+      "Dirigé une campagne réussie pour une augmentation de 50M$ du financement scolaire",
+      "Établi une initiative de santé communautaire desservant plus de 5 000 familles",
+      "Défendu un projet de loi de protection de l'environnement avec un soutien bipartite",
+      "Créé un programme de formation professionnelle avec un taux de succès d'emploi de 85%"
+    ],
+    "educationDetails": {
+      "degree": "Maîtrise en administration publique",
+      "university": "Université de l'Illinois à Chicago, 2012"
+    }
+  },
+  "Contact": {
+    "title": "Entrer en contact",
+    "subtitle": "Vous avez des questions ou vous voulez vous impliquer? J'aimerais avoir de vos nouvelles. Ensemble, nous pouvons construire un meilleur avenir pour notre communauté.",
+    "contactInformation": "Informations de contact",
+    "email": "Courriel",
+    "phone": "Téléphone",
+    "office": "Bureau",
+    "campaignOfficeHours": "Heures d'ouverture du bureau de campagne",
+    "officeHours": {
+      "weekdays": "Lundi - Vendredi: 9h00 - 18h00",
+      "saturday": "Samedi: 10h00 - 16h00",
+      "sunday": "Dimanche: Fermé"
+    },
+    "sendMessage": "Envoyer un message",
+    "form": {
+      "fullName": "Nom complet",
+      "emailAddress": "Adresse courriel",
+      "subject": "Sujet",
+      "message": "Message",
+      "sendMessage": "Envoyer le message"
+    }
+  },
+  "LanguageSwitcher": {
+    "switchTo": "Changer vers",
+    "english": "English",
+    "french": "Français"
+  }
+} 

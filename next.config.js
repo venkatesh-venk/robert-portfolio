@@ -1,19 +1,18 @@
-// module.exports = {
-//   output: "export",
-//   trailingSlash: true,
-//   images: {
-//     unoptimized: true
-//   },
-//   experimental: {
-//     appDir: true,
-//   },
-// }
+const createNextIntlPlugin = require("next-intl/plugin");
+
+const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/robert-portfolio",
-  output: "export",  // <=== enables static exports
+  output: "export",
   reactStrictMode: true,
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  }
 };
 
-module.exports = nextConfig;
+module.exports = withNextIntl(nextConfig);
+
+
