@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - venky
 
 permissions:
   contents: read
