@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  robert-portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: robert-portfolio:latest
+    container_name: robert-portfolio
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:80/en/"]
+      timeout: 10s
+      interval: 30s
+      retries: 3
+      start_period: 40s
+    # labels:
+    #   - "traefik.enable=true"
+    #   - "traefik.http.routers.robert-portfolio.rule=Host(`robert-portfolio.local`)"
+    #   - "traefik.http.routers.robert-portfolio.entrypoints=web"
+    #   - "traefik.http.services.robert-portfolio.loadbalancer.server.port=8080"
+
+networks:
+  default:
+    name: robert-portfolio-network
