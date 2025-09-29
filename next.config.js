@@ -1,10 +1,5 @@
-const createNextIntlPlugin = require("next-intl/plugin");
-
-const withNextIntl = createNextIntlPlugin();
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/robert-portfolio",
   output: "export",
   reactStrictMode: true,
   trailingSlash: true,
@@ -13,6 +8,6 @@ const nextConfig = {
   }
 };
 
-module.exports = withNextIntl(nextConfig);
+module.exports = nextConfig;
 
 

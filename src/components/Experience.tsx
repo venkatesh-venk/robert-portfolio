@@ -2,37 +2,40 @@
 
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Award } from "lucide-react";
+import { useTranslations } from '@/contexts/LocaleContext';
 
 const Experience = () => {
+  const t = useTranslations('Experience');
+
   const experiences = [
     {
-      year: "2018 - Present",
-      title: "Community Development Director",
-      organization: "City of Springfield",
-      location: "Springfield, IL",
-      description: "Led initiatives that resulted in 25% increase in affordable housing units and $2M in economic development grants."
+      year: t('experiences.director.year'),
+      title: t('experiences.director.title'),
+      organization: t('experiences.director.organization'),
+      location: t('experiences.director.location'),
+      description: t('experiences.director.description')
     },
     {
-      year: "2015 - 2018",
-      title: "Policy Analyst",
-      organization: "State Legislature",
-      location: "Springfield, IL",
-      description: "Developed and analyzed legislation focused on education reform and environmental protection policies."
+      year: t('experiences.analyst.year'),
+      title: t('experiences.analyst.title'),
+      organization: t('experiences.analyst.organization'),
+      location: t('experiences.analyst.location'),
+      description: t('experiences.analyst.description')
     },
     {
-      year: "2012 - 2015",
-      title: "Community Organizer",
-      organization: "Progressive Action Network",
-      location: "Chicago, IL",
-      description: "Organized grassroots campaigns that mobilized over 10,000 community members on key policy issues."
+      year: t('experiences.organizer.year'),
+      title: t('experiences.organizer.title'),
+      organization: t('experiences.organizer.organization'),
+      location: t('experiences.organizer.location'),
+      description: t('experiences.organizer.description')
     }
   ];
 
   const achievements = [
-    "Led successful campaign for $50M school funding increase",
-    "Established community health initiative serving 5,000+ families",
-    "Championed environmental protection bill with bipartisan support",
-    "Created job training program with 85% employment success rate"
+    t('achievements.0'),
+    t('achievements.1'),
+    t('achievements.2'),
+    t('achievements.3')
   ];
 
   return (
@@ -46,11 +49,10 @@ const Experience = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Experience & Achievements
+            {t('title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            A proven track record of delivering results and making a positive impact 
-            in our community through dedicated public service.
+            {t('subtitle')}
           </p>
         </motion.div>
 
@@ -62,7 +64,7 @@ const Experience = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Professional Experience</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">{t('professionalExperience')}</h3>
             <div className="space-y-8">
               {experiences.map((exp, index) => (
                 <div key={index} className="relative pl-8 border-l-2 border-primary-200">
@@ -93,7 +95,7 @@ const Experience = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Key Achievements</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">{t('keyAchievements')}</h3>
             <div className="space-y-6">
               {achievements.map((achievement, index) => (
                 <div key={index} className="flex items-start">
@@ -107,13 +109,13 @@ const Experience = () => {
 
             <div className="mt-8 p-6 bg-primary-50 rounded-lg">
               <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                Education
+                {t('education')}
               </h4>
               <p className="text-gray-600 mb-1">
-                <strong>Master of Public Administration</strong>
+                <strong>{t('educationDetails.degree')}</strong>
               </p>
               <p className="text-gray-600">
-                University of Illinois at Chicago, 2012
+                {t('educationDetails.university')}
               </p>
             </div>
           </motion.div>
