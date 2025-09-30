@@ -41,21 +41,37 @@
   "Issues": {
     "title": "Enjeux clés",
     "subtitle": "Notre mouvement se concentre sur l'approche des défis les plus pressants auxquels fait face notre communauté avec des solutions pratiques et fondées sur des preuves.",
-    "economicDevelopment": {
-      "title": "Développement économique",
-      "description": "Créer des emplois et soutenir les entreprises locales grâce à des politiques économiques intelligentes et des investissements en infrastructure."
+    "openDoorTroubles": {
+      "title": "Problèmes Open Door",
+      "description": "Le centre pour sans-abri Open Door au 3535 avenue du Parc accueille 50 à 70 personnes par jour mais a des limites importantes. Il n'opère que le jour avec seulement 30 lits, laissant beaucoup à l'extérieur. Cela a conduit à une augmentation de la consommation de drogues, des vols, de la mendicité agressive et des problèmes d'hygiène publique. Nous nous engageons à déménager l'installation vers un endroit plus approprié avec une capacité accrue."
+    },
+    "safety": {
+      "title": "Sécurité des étudiants, enfants et aînés",
+      "description": "Malgré des demandes répétées, la présence policière à Milton-Parc reste insuffisante. Cela a contribué à des coups de couteau, du harcèlement et de l'intimidation. Les étudiants, les enfants et les familles méritent de se sentir en sécurité. Nous demandons des patrouilles policières accrues et cohérentes—particulièrement à vélo—pour assurer des temps de réponse plus rapides et restaurer la confiance dans la sécurité de notre communauté."
+    },
+    "garbagePestControl": {
+      "title": "Gestion des déchets et lutte antiparasitaire",
+      "description": "Les poubelles débordantes et les déchets mal gérés ont créé des conditions insalubres et une augmentation rapide des rats. Nous exigeons une stratégie complète incluant une collecte des déchets plus fréquente, des bacs résistants aux rongeurs, une application plus stricte des règlements sur les déchets et un programme coordonné de lutte antiparasitaire pour restaurer la propreté."
     },
     "affordableHousing": {
-      "title": "Logement abordable",
-      "description": "Aborder la crise du logement avec des solutions innovantes qui rendent l'accession à la propriété accessible à toutes les familles."
+      "title": "Logement abordable et sécuritaire",
+      "description": "L'augmentation des coûts de logement met les maisons hors de portée des étudiants, jeunes familles et aînés. Les appartements mal entretenus et les propriétaires négligents créent des conditions dangereuses. Nous proposons une application plus stricte des normes de logement, des protections renforcées pour les locataires contre les augmentations de loyer injustes et des investissements dans de nouveaux projets de logements abordables."
     },
-    "educationExcellence": {
-      "title": "Excellence en éducation",
-      "description": "Investir dans nos écoles et nos enseignants pour s'assurer que chaque enfant a accès à une éducation et à des opportunités de qualité."
+    "parksGreenSpaces": {
+      "title": "Parcs publics et espaces verts",
+      "description": "Les parcs et terrains de jeux souffrent de négligence, d'un entretien médiocre, d'un éclairage insuffisant et d'installations limitées. Nous proposons un meilleur entretien, la création de nouveaux espaces récréatifs, l'ajout de bancs et de sentiers sécuritaires, et un éclairage amélioré pour assurer la sécurité en soirée pour les étudiants, familles et aînés."
     },
-    "environmentalProtection": {
-      "title": "Protection de l'environnement",
-      "description": "Protéger nos ressources naturelles et promouvoir des pratiques durables pour les générations futures."
+    "trafficRoadSafety": {
+      "title": "Sécurité routière",
+      "description": "Les rues achalandées posent des risques pour les piétons, cyclistes et conducteurs. Les véhicules en excès de vitesse et les passages piétons mal marqués ont causé des accidents. Nous proposons des signaux piétonniers améliorés, des pistes cyclables protégées élargies, des mesures de contrôle de la vitesse et une attention particulière à la sécurité autour des écoles, parcs et logements étudiants."
+    },
+    "noiseQualityOfLife": {
+      "title": "Bruit et qualité de vie",
+      "description": "Les perturbations nocturnes autour des logements étudiants, bars et lieux de vie nocturne dérangent les familles et les aînés. Nous proposons une application plus stricte des règlements sur le bruit, une coordination avec les universités pour minimiser les perturbations, une réglementation équilibrée de la vie nocturne et des mesures de réduction du bruit pendant les projets de construction."
+    },
+    "localBusinessSupport": {
+      "title": "Commerce local et engagement communautaire",
+      "description": "Les petites entreprises ont du mal en raison des préoccupations de sécurité et de propreté. Les résidents se sentent déconnectés de la prise de décision. Nous proposons des incitatifs pour les entreprises locales, des rues commerciales propres et sécuritaires, la création d'un conseil consultatif de quartier et l'expansion d'événements communautaires pour favoriser l'appartenance."
     },
     "viewFullPlatform": "Voir la plateforme complète"
   },
