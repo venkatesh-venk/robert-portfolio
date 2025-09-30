@@ -41,21 +41,37 @@
   "Issues": {
     "title": "Key Issues",
     "subtitle": "Our movement is focused on addressing the most pressing challenges facing our community with practical, evidence-based solutions.",
-    "economicDevelopment": {
-      "title": "Economic Development",
-      "description": "Creating jobs and supporting local businesses through smart economic policies and infrastructure investment."
+    "openDoorTroubles": {
+      "title": "Open Door Troubles",
+      "description": "The homeless center Open Door at 3535 Avenue du Parc serves 50-70 individuals daily but has significant limitations. It operates only during the day with just 30 beds, leaving many outside. This has led to increased drug use, theft, aggressive begging, and public hygiene issues. We are committed to moving the facility to a more suitable location with expanded capacity."
+    },
+    "safety": {
+      "title": "Students, Child & Elder Safety",
+      "description": "Despite repeated requests, police presence in Milton-Parc remains insufficient. This has contributed to knife stabbings, harassment, and bullying. Students, children, and families deserve to feel safe. We are calling for increased, consistent police patrols—particularly on bicycles—to ensure quicker response times and restore confidence in our community's safety."
+    },
+    "garbagePestControl": {
+      "title": "Garbage & Pest Control",
+      "description": "Overflowing trash bins and improperly managed waste have created unsanitary conditions and a rapid increase in rats. We demand a comprehensive strategy including more frequent waste collection, secure rodent-resistant bins, stronger littering enforcement, and a coordinated pest control program to restore cleanliness."
     },
     "affordableHousing": {
-      "title": "Affordable Housing",
-      "description": "Addressing the housing crisis with innovative solutions that make homeownership accessible to all families."
+      "title": "Affordable & Safe Housing",
+      "description": "Rising housing costs are putting homes out of reach for students, young families, and seniors. Poorly maintained apartments and neglectful landlords create unsafe conditions. We propose stricter enforcement of housing standards, enhanced tenant protections against unfair rent increases, and investment in new affordable housing projects."
     },
-    "educationExcellence": {
-      "title": "Education Excellence",
-      "description": "Investing in our schools and teachers to ensure every child has access to quality education and opportunities."
+    "parksGreenSpaces": {
+      "title": "Public Parks & Green Spaces",
+      "description": "Parks and playgrounds suffer from neglect, poor maintenance, insufficient lighting, and limited facilities. We propose better maintenance, creation of new recreational spaces, addition of benches and safe pathways, and enhanced lighting to ensure safety during evening hours for students, families, and seniors."
     },
-    "environmentalProtection": {
-      "title": "Environmental Protection",
-      "description": "Protecting our natural resources and promoting sustainable practices for future generations."
+    "trafficRoadSafety": {
+      "title": "Traffic & Road Safety",
+      "description": "Busy streets pose risks for pedestrians, cyclists, and drivers. Speeding vehicles and poorly marked crosswalks have resulted in accidents. We propose improved pedestrian signals, expanded protected bike lanes, speed control measures, and special focus on safety around schools, parks, and student housing."
+    },
+    "noiseQualityOfLife": {
+      "title": "Noise & Quality of Life",
+      "description": "Late-night disturbances around student housing, bars, and nightlife venues disrupt families and seniors. We propose stricter enforcement of noise bylaws, coordination with universities to minimize disturbances, balanced nightlife regulation, and noise-reduction measures during construction projects."
+    },
+    "localBusinessSupport": {
+      "title": "Local Business & Community Engagement",
+      "description": "Small businesses struggle due to safety concerns and cleanliness issues. Residents feel disconnected from decision-making. We propose incentives for local businesses, clean and safe commercial streets, creation of a neighborhood advisory council, and expansion of community events to foster belonging."
     },
     "viewFullPlatform": "View Full Platform"
   },

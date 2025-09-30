@@ -4,22 +4,48 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { useTranslations } from '@/contexts/LocaleContext';
 import Image from 'next/image';
+import { useState, useEffect } from 'react';
 
 const Hero = () => {
   const t = useTranslations('Hero');
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
+  const backgroundImages = [
+    '/images/cityline-mtl-plateau.png',
+    '/images/montreal_paint.jpeg',
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        (prevIndex + 1) % backgroundImages.length
+      );
+    }, 7000); // Change every 7 seconds
+
+    return () => clearInterval(interval);
+  }, [backgroundImages.length]);
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Images with Carousel */}
       <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/cityline-mtl-plateau.png"
-          alt="Montreal Plateau Cityline"
-          fill
-          className="object-cover"
-          priority
-          quality={100}
-        />
+        {backgroundImages.map((image, index) => (
+          <div
+            key={image}
+            className={`absolute inset-0 transition-opacity duration-1000 ${
+              index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+            }`}
+          >
+            <Image
+              src={image}
+              alt={`Background ${index + 1}`}
+              fill
+              className="object-cover"
+              priority={index === 0}
+              quality={100}
+            />
+          </div>
+        ))}
         {/* Light overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-to-br from-white/85 via-primary-50/90 to-white/80" />
       </div>
