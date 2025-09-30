@@ -220,7 +220,7 @@ export default function IssueDetailPage({ params }: { params: { slug: string } }
             className="absolute top-8 left-8 flex items-center gap-2 text-white hover:text-primary-300 transition-colors"
           >
             <ArrowLeft size={20} />
-            <span>Retour à l'accueil</span>
+            <span>Retour à l&apos;accueil</span>
           </Link>
 
           {/* Title Overlay */}
@@ -264,7 +264,7 @@ export default function IssueDetailPage({ params }: { params: { slug: string } }
                 href="/fr#contact"
                 className="bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200"
               >
-                S'impliquer
+                S&apos;impliquer
               </Link>
               <Link
                 href="/fr#issues"
