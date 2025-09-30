@@ -9,6 +9,8 @@ const LanguageSwitcher = () => {
   const router = useRouter();
 
   const switchLanguage = (newLocale: string) => {
+    // Update localStorage preference
+    localStorage.setItem('preferredLanguage', newLocale);
     // Navigate to the specific locale page (basePath will be added automatically)
     router.push(`/${newLocale}`);
   };

@@ -7,17 +7,17 @@
     "contact": "Contact"
   },
   "Hero": {
-    "name": "Robert Fradette",
-    "tagline": "A dedicated leader committed to serving our community with integrity, transparency, and progressive values.",
+    "name": "Citoyens en Action",
+    "tagline": "A progressive political movement committed to serving our community with integrity, transparency, and progressive values.",
     "learnMore": "Learn More",
     "getInvolved": "Get Involved"
   },
   "About": {
-    "title": "About Robert",
-    "subtitle": "A dedicated public servant with over 15 years of experience in community development and policy making. Robert brings fresh perspectives and proven leadership to address the challenges facing our community.",
+    "title": "About Our Movement",
+    "subtitle": "A dedicated political movement focused on community development and progressive policy making. Citoyens en Action brings fresh perspectives and collaborative leadership to address the challenges facing our community.",
     "visionTitle": "A Vision for Progress",
-    "visionText1": "Robert Fradette has dedicated his career to building stronger communities through innovative policy solutions and collaborative leadership. His approach combines data-driven decision making with genuine care for the people he serves.",
-    "visionText2": "With a background in public administration and community organizing, Robert understands both the challenges and opportunities that lie ahead for our district. He is committed to creating policies that promote economic growth, environmental sustainability, and social equity.",
+    "visionText1": "Citoyens en Action is dedicated to building stronger communities through innovative policy solutions and collaborative leadership. Our approach combines data-driven decision making with genuine care for the people we serve.",
+    "visionText2": "With a focus on public service and community organizing, our movement understands both the challenges and opportunities that lie ahead for our district. We are committed to creating policies that promote economic growth, environmental sustainability, and social equity.",
     "values": {
       "communityFirst": {
         "title": "Community First",
@@ -40,7 +40,7 @@
   },
   "Issues": {
     "title": "Key Issues",
-    "subtitle": "Robert is focused on addressing the most pressing challenges facing our community with practical, evidence-based solutions.",
+    "subtitle": "Our movement is focused on addressing the most pressing challenges facing our community with practical, evidence-based solutions.",
     "economicDevelopment": {
       "title": "Economic Development",
       "description": "Creating jobs and supporting local businesses through smart economic policies and infrastructure investment."
@@ -101,7 +101,7 @@
   },
   "Contact": {
     "title": "Get In Touch",
-    "subtitle": "Have questions or want to get involved? I would love to hear from you. Together, we can build a better future for our community.",
+    "subtitle": "Have questions or want to get involved? We would love to hear from you. Together, we can build a better future for our community.",
     "contactInformation": "Contact Information",
     "email": "Email",
     "phone": "Phone",

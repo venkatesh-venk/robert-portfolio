@@ -6,13 +6,13 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Robert Fradette - Portfolio Politique",
-  description: "Portfolio politique officiel et site de campagne de Robert Fradette",
-  keywords: ["politique", "campagne", "élection", "Robert Fradette", "gouvernement"],
-  authors: [{ name: "Robert Fradette" }],
+  title: "Citoyens en Action - Parti Politique",
+  description: "Site officiel de Citoyens en Action - Un mouvement politique progressiste engagé au service de notre communauté",
+  keywords: ["politique", "campagne", "élection", "Citoyens en Action", "gouvernement", "progressiste", "communauté"],
+  authors: [{ name: "Citoyens en Action" }],
   openGraph: {
-    title: "Robert Fradette - Portfolio Politique",
-    description: "Portfolio politique officiel et site de campagne de Robert Fradette",
+    title: "Citoyens en Action - Parti Politique",
+    description: "Site officiel de Citoyens en Action - Un mouvement politique progressiste engagé au service de notre communauté",
     type: "website",
   },
 };

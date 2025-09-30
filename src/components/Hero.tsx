@@ -3,13 +3,28 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { useTranslations } from '@/contexts/LocaleContext';
+import Image from 'next/image';
 
 const Hero = () => {
   const t = useTranslations('Hero');
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 to-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/cityline-mtl-plateau.png"
+          alt="Montreal Plateau Cityline"
+          fill
+          className="object-cover"
+          priority
+          quality={100}
+        />
+        {/* Light overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-br from-white/85 via-primary-50/90 to-white/80" />
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

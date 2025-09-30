@@ -24,7 +24,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold text-primary-600">
-              Robert Fradette
+              Citoyens en Action
             </h1>
           </div>
 
