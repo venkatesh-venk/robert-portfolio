@@ -7,17 +7,17 @@
     "contact": "Contact"
   },
   "Hero": {
-    "name": "Robert Fradette",
-    "tagline": "Un leader dévoué engagé à servir notre communauté avec intégrité, transparence et valeurs progressistes.",
+    "name": "Citoyens en Action",
+    "tagline": "Un mouvement politique progressiste engagé à servir notre communauté avec intégrité, transparence et valeurs progressistes.",
     "learnMore": "En savoir plus",
     "getInvolved": "S'impliquer"
   },
   "About": {
-    "title": "À propos de Robert",
-    "subtitle": "Un serviteur public dévoué avec plus de 15 ans d'expérience en développement communautaire et en élaboration de politiques. Robert apporte des perspectives nouvelles et un leadership éprouvé pour relever les défis auxquels fait face notre communauté.",
+    "title": "À propos de notre mouvement",
+    "subtitle": "Un mouvement politique dévoué axé sur le développement communautaire et l'élaboration de politiques progressistes. Citoyens en Action apporte des perspectives nouvelles et un leadership collaboratif pour relever les défis auxquels fait face notre communauté.",
     "visionTitle": "Une vision du progrès",
-    "visionText1": "Robert Fradette a consacré sa carrière à construire des communautés plus fortes grâce à des solutions politiques innovantes et un leadership collaboratif. Son approche combine la prise de décision basée sur les données avec un véritable souci des personnes qu'il sert.",
-    "visionText2": "Avec une formation en administration publique et en organisation communautaire, Robert comprend à la fois les défis et les opportunités qui nous attendent dans notre district. Il s'engage à créer des politiques qui favorisent la croissance économique, la durabilité environnementale et l'équité sociale.",
+    "visionText1": "Citoyens en Action se consacre à construire des communautés plus fortes grâce à des solutions politiques innovantes et un leadership collaboratif. Notre approche combine la prise de décision basée sur les données avec un véritable souci des personnes que nous servons.",
+    "visionText2": "Avec un accent sur le service public et l'organisation communautaire, notre mouvement comprend à la fois les défis et les opportunités qui nous attendent dans notre district. Nous nous engageons à créer des politiques qui favorisent la croissance économique, la durabilité environnementale et l'équité sociale.",
     "values": {
       "communityFirst": {
         "title": "Communauté d'abord",
@@ -40,7 +40,7 @@
   },
   "Issues": {
     "title": "Enjeux clés",
-    "subtitle": "Robert se concentre sur l'approche des défis les plus pressants auxquels fait face notre communauté avec des solutions pratiques et fondées sur des preuves.",
+    "subtitle": "Notre mouvement se concentre sur l'approche des défis les plus pressants auxquels fait face notre communauté avec des solutions pratiques et fondées sur des preuves.",
     "economicDevelopment": {
       "title": "Développement économique",
       "description": "Créer des emplois et soutenir les entreprises locales grâce à des politiques économiques intelligentes et des investissements en infrastructure."
@@ -101,7 +101,7 @@
   },
   "Contact": {
     "title": "Entrer en contact",
-    "subtitle": "Vous avez des questions ou vous voulez vous impliquer? J'aimerais avoir de vos nouvelles. Ensemble, nous pouvons construire un meilleur avenir pour notre communauté.",
+    "subtitle": "Vous avez des questions ou vous voulez vous impliquer? Nous aimerions avoir de vos nouvelles. Ensemble, nous pouvons construire un meilleur avenir pour notre communauté.",
     "contactInformation": "Informations de contact",
     "email": "Courriel",
     "phone": "Téléphone",
