@@ -2,12 +2,15 @@
 
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import { useTranslations } from '@/contexts/LocaleContext';
+import { useTranslations, useLocale } from '@/contexts/LocaleContext';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
   const t = useTranslations('Hero');
+  const locale = useLocale();
+  const router = useRouter();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const backgroundImages = [
@@ -24,6 +27,10 @@ const Hero = () => {
 
     return () => clearInterval(interval);
   }, [backgroundImages.length]);
+
+  const handleGetInvolved = () => {
+    router.push(`/${locale}/community`);
+  };
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -74,7 +81,10 @@ const Hero = () => {
             <button className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition-colors duration-200 shadow-lg hover:shadow-xl">
               {t('learnMore')}
             </button>
-            <button className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-600 hover:text-white transition-colors duration-200">
+            <button 
+              onClick={handleGetInvolved}
+              className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-600 hover:text-white transition-colors duration-200"
+            >
               {t('getInvolved')}
             </button>
           </motion.div>
