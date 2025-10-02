@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Users, Heart, Shield } from "lucide-react";
 import { useTranslations } from '@/contexts/LocaleContext';
+import Image from 'next/image';
 
 const About = () => {
   const t = useTranslations('About');
@@ -50,10 +51,14 @@ const About = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="bg-gray-100 rounded-lg p-8 h-96 flex items-center justify-center">
-              <p className="text-gray-500 text-center">
-                [Professional Photo of Robert Fradette]
-              </p>
+            <div className="relative rounded-lg overflow-hidden h-96 w-full">
+              <Image
+                src="/images/member_pictures/robert.JPG"
+                alt="Professional Photo of Robert Fradette"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
           </motion.div>
 
