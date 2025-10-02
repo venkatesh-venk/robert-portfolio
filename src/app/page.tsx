@@ -1,31 +1,17 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
 import LanguageSelectionModal from '@/components/LanguageSelectionModal';
 
 export default function RootPage() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
   const [showLanguageModal, setShowLanguageModal] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Check if force parameter is present (for testing)
-    const forceModal = searchParams.get('lang') === 'select';
-    
-    // Check if user has already selected a language
-    const preferredLanguage = localStorage.getItem('preferredLanguage');
-    
-    if (forceModal || !preferredLanguage || (preferredLanguage !== 'en' && preferredLanguage !== 'fr')) {
-      // Show language selection modal
-      setShowLanguageModal(true);
-      setIsLoading(false);
-    } else {
-      // User has already selected a language, redirect to it
-      router.push(`/${preferredLanguage}`);
-    }
-  }, [router, searchParams]);
+    // Always show language selection modal
+    setShowLanguageModal(true);
+    setIsLoading(false);
+  }, []);
 
   if (isLoading) {
     return (
