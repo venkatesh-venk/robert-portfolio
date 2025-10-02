@@ -13,9 +13,6 @@ const LanguageSelectionModal = () => {
     setSelectedLanguage(languageCode);
     setIsAnimating(true);
 
-    // Store the language preference in localStorage
-    localStorage.setItem('preferredLanguage', languageCode);
-
     // Wait for animation to complete before navigating
     setTimeout(() => {
       router.push(`/${languageCode}`);
