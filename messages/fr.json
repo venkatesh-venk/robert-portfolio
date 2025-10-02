@@ -141,5 +141,20 @@
     "switchTo": "Changer vers",
     "english": "English",
     "french": "Français"
+  },
+  "Community": {
+    "title": "Forum Communautaire",
+    "subtitle": "Partagez vos pensées, préoccupations et idées avec la communauté. C'est votre espace pour engager des conversations significatives et vous connecter avec vos concitoyens.",
+    "postMessage": "Publier un Message",
+    "emailLabel": "Votre Courriel",
+    "emailPlaceholder": "votre.courriel@exemple.com",
+    "emailRequired": "Le courriel est requis",
+    "emailInvalid": "Veuillez entrer une adresse courriel valide",
+    "messageLabel": "Votre Message",
+    "messagePlaceholder": "Partagez vos pensées avec la communauté...",
+    "postButton": "Publier le Message",
+    "posting": "Publication...",
+    "communityMessages": "Messages Communautaires",
+    "noMessages": "Aucun message pour le moment. Soyez le premier à démarrer la conversation!"
   }
 } 

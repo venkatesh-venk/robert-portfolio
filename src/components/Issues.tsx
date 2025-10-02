@@ -1,16 +1,16 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Home, Shield, Trash2, TreePine, Car, Volume2, Store, AlertCircle } from "lucide-react";
 import { useTranslations, useLocale } from '@/contexts/LocaleContext';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 const Issues = () => {
   const t = useTranslations('Issues');
   const locale = useLocale();
   const router = useRouter();
-  const [currentPage, setCurrentPage] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
 
   // All issues - you can add more here
   const allIssues = [
@@ -72,23 +72,8 @@ const Issues = () => {
     }
   ];
 
-  const itemsPerPage = 4;
-  const [startIndex, setStartIndex] = useState(0);
-
-  // Auto-rotate every 7 seconds - shift one issue at a time
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setStartIndex((prev) => (prev + 1) % allIssues.length);
-    }, 7000);
-
-    return () => clearInterval(interval);
-  }, [allIssues.length]);
-
-  // Get 4 consecutive issues in a circular manner
-  const currentIssues = Array.from({ length: itemsPerPage }, (_, i) => {
-    const index = (startIndex + i) % allIssues.length;
-    return allIssues[index];
-  });
+  // Duplicate the array to create seamless loop
+  const duplicatedIssues = [...allIssues, ...allIssues, ...allIssues];
 
   const handleIssueClick = (issueId: string) => {
     router.push(`/${locale}/issues/${issueId}`);
@@ -112,67 +97,50 @@ const Issues = () => {
           </p>
         </motion.div>
 
-        {/* Smooth Horizontal Carousel */}
-        <div className="relative min-h-[420px] overflow-hidden px-4">
+        {/* Smooth Continuous Horizontal Scroll */}
+        <div 
+          className="relative min-h-[420px] overflow-hidden"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+        >
           <motion.div
-            key={startIndex}
             className="flex gap-8"
-            initial={{ x: "0%" }}
-            animate={{ x: "0%" }}
+            animate={{
+              x: [0, -((allIssues.length * 320) + (allIssues.length * 32))]
+            }}
             transition={{
-              duration: 0.8,
-              ease: [0.4, 0, 0.2, 1]
+              x: {
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 60, // Adjust this for speed (lower = faster)
+                ease: "linear"
+              }
+            }}
+            style={{
+              animationPlayState: isPaused ? 'paused' : 'running'
             }}
           >
-            <AnimatePresence mode="popLayout" initial={false}>
-              {currentIssues.map((issue, index) => (
-                <motion.div
-                  key={issue.id}
-                  layout
-                  initial={{ opacity: 0, scale: 0.8, x: 300 }}
-                  animate={{ opacity: 1, scale: 1, x: 0 }}
-                  exit={{ opacity: 0, scale: 0.8, x: -300 }}
-                  transition={{
-                    duration: 0.8,
-                    ease: [0.4, 0, 0.2, 1],
-                    layout: { duration: 0.6 }
-                  }}
-                  onClick={() => handleIssueClick(issue.id)}
-                  className="flex-shrink-0 w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)] bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer hover:scale-105 hover:-translate-y-1"
-                  style={{ minWidth: "280px" }}
-                >
-                  <div className={`inline-flex items-center justify-center w-12 h-12 rounded-lg ${issue.color} mb-4`}>
-                    <issue.icon className="w-6 h-6" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                    {issue.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">
-                    {issue.description}
-                  </p>
-                  <div className="mt-4 text-primary-600 text-sm font-semibold flex items-center">
-                    Learn More →
-                  </div>
-                </motion.div>
-              ))}
-            </AnimatePresence>
+            {duplicatedIssues.map((issue, index) => (
+              <div
+                key={`${issue.id}-${index}`}
+                onClick={() => handleIssueClick(issue.id)}
+                className="flex-shrink-0 w-[320px] bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer hover:scale-105 hover:-translate-y-1"
+              >
+                <div className={`inline-flex items-center justify-center w-12 h-12 rounded-lg ${issue.color} mb-4`}>
+                  <issue.icon className="w-6 h-6" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  {issue.title}
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  {issue.description}
+                </p>
+                <div className="mt-4 text-primary-600 text-sm font-semibold flex items-center">
+                  Learn More →
+                </div>
+              </div>
+            ))}
           </motion.div>
-        </div>
-
-        {/* Progress Indicator */}
-        <div className="flex justify-center gap-2 mt-8">
-          {allIssues.map((issue, index) => (
-            <button
-              key={issue.id}
-              onClick={() => setStartIndex(index)}
-              className={`w-2 h-2 rounded-full transition-all duration-500 ${
-                index === startIndex 
-                  ? 'bg-primary-600 w-6' 
-                  : 'bg-gray-300 hover:bg-gray-400'
-              }`}
-              aria-label={`Show ${issue.title}`}
-            />
-          ))}
         </div>
 
         <motion.div

@@ -141,5 +141,20 @@
     "switchTo": "Switch to",
     "english": "English",
     "french": "Français"
+  },
+  "Community": {
+    "title": "Community Board",
+    "subtitle": "Share your thoughts, concerns, and ideas with the community. This is your space to engage in meaningful conversations and connect with fellow citizens.",
+    "postMessage": "Post a Message",
+    "emailLabel": "Your Email",
+    "emailPlaceholder": "your.email@example.com",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "messageLabel": "Your Message",
+    "messagePlaceholder": "Share your thoughts with the community...",
+    "postButton": "Post Message",
+    "posting": "Posting...",
+    "communityMessages": "Community Messages",
+    "noMessages": "No messages yet. Be the first to start the conversation!"
   }
 } 
