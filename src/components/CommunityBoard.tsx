@@ -105,7 +105,7 @@ const CommunityBoard = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-20 pb-12">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-primary-50 to-green-50 pt-20 pb-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div

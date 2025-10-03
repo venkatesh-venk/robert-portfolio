@@ -202,7 +202,7 @@ export default function IssueDetailPage({ params }: { params: { slug: string } }
   return (
     <>
       <Navigation />
-      <main className="min-h-screen bg-white pt-16">
+      <main className="min-h-screen bg-gradient-to-br from-green-50 via-primary-50 to-green-50 pt-16">
         {/* Hero Image Section */}
         <div className="relative h-[400px] w-full">
           <Image

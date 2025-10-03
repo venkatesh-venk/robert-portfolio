@@ -2,18 +2,21 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { useTranslations } from '@/contexts/LocaleContext';
+import Link from "next/link";
+import { useTranslations, useLocale } from '@/contexts/LocaleContext';
 import LanguageSwitcher from './LanguageSwitcher';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const t = useTranslations('Navigation');
+  const locale = useLocale();
 
   const navItems = [
     { name: t('home'), href: "#home" },
     { name: t('about'), href: "#about" },
     { name: t('issues'), href: "#issues" },
     { name: t('experience'), href: "#experience" },
+    { name: t('donate'), href: "#donate" },
     { name: t('contact'), href: "#contact" },
   ];
 
@@ -23,9 +26,11 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-primary-600">
-              Citoyens en Action
-            </h1>
+            <Link href={`/${locale}`} className="cursor-pointer">
+              <h1 className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors duration-200">
+                Citoyens en Action
+              </h1>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}

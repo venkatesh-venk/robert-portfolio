@@ -4,6 +4,7 @@
     "about": "About",
     "issues": "Issues",
     "experience": "Experience",
+    "donate": "Donate",
     "contact": "Contact"
   },
   "Hero": {
@@ -156,5 +157,21 @@
     "posting": "Posting...",
     "communityMessages": "Community Messages",
     "noMessages": "No messages yet. Be the first to start the conversation!"
+  },
+  "Donate": {
+    "title": "Support Our Cause",
+    "subtitle": "Your contribution helps us continue fighting for progressive policies and positive change in our community. Every donation makes a difference.",
+    "selectAmount": "Select Donation Amount (CAD)",
+    "customAmount": "Or enter a custom amount",
+    "enterAmount": "Enter amount",
+    "impact": "Your Impact:",
+    "impactMessage": "Your generous donation will help fund community programs, policy research, and grassroots organizing efforts.",
+    "donateButton": "Donate Now",
+    "processing": "Processing...",
+    "securityNote": "🔒 Secure payment processing. Your information is protected.",
+    "transparent": "Transparent Use of Funds",
+    "secure": "Secure Payments",
+    "taxDeductible": "Tax Deductible",
+    "thankYou": "Thank you for your generous donation of"
   }
 } 

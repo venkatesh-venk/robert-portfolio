@@ -4,6 +4,7 @@
     "about": "À propos",
     "issues": "Enjeux",
     "experience": "Expérience",
+    "donate": "Faire un don",
     "contact": "Contact"
   },
   "Hero": {
@@ -156,5 +157,21 @@
     "posting": "Publication...",
     "communityMessages": "Messages Communautaires",
     "noMessages": "Aucun message pour le moment. Soyez le premier à démarrer la conversation!"
+  },
+  "Donate": {
+    "title": "Soutenez notre cause",
+    "subtitle": "Votre contribution nous aide à continuer à lutter pour des politiques progressistes et un changement positif dans notre communauté. Chaque don fait la différence.",
+    "selectAmount": "Sélectionnez le montant du don (CAD)",
+    "customAmount": "Ou entrez un montant personnalisé",
+    "enterAmount": "Entrez le montant",
+    "impact": "Votre impact:",
+    "impactMessage": "Votre généreux don aidera à financer les programmes communautaires, la recherche de politiques et les efforts d'organisation de base.",
+    "donateButton": "Faire un don maintenant",
+    "processing": "Traitement en cours...",
+    "securityNote": "🔒 Traitement des paiements sécurisé. Vos informations sont protégées.",
+    "transparent": "Utilisation transparente des fonds",
+    "secure": "Paiements sécurisés",
+    "taxDeductible": "Déductible d'impôt",
+    "thankYou": "Merci pour votre généreux don de"
   }
 } 
