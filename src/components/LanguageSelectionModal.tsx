@@ -24,15 +24,13 @@ const LanguageSelectionModal = () => {
       {/* Background Image with Blur Overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/images/green_saffron.jpeg"
+          src="/images/cia_poster.png"
           alt="Background"
           fill
-          className="object-cover"
+          className="object-contain"
           priority
           quality={100}
         />
-        {/* Blur overlay */}
-        <div className="absolute inset-0 backdrop-blur-sm bg-black/20" />
       </div>
 
       {/* Content Container */}
@@ -80,7 +78,7 @@ const LanguageSelectionModal = () => {
 
         {/* Tagline */}
         <div className="mt-4">
-          <p className="text-2xl md:text-7xl font-semibold text-gray-900 tracking-wide drop-shadow-2xl">
+          <p className="text-2xl md:text-7xl font-semibold text-white tracking-wide drop-shadow-2xl">
             Citoyens en Action
           </p>
         </div>
