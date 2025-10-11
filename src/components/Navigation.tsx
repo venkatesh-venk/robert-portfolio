@@ -27,7 +27,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href={`/${locale}`} className="cursor-pointer">
-              <h1 className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors duration-200">
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-primary-600 via-saffron-500 to-primary-700 bg-clip-text text-transparent hover:from-primary-700 hover:via-saffron-600 hover:to-primary-800 transition-all duration-300">
                 Citoyens en Action
               </h1>
             </Link>
