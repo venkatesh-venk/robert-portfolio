@@ -74,7 +74,7 @@ export default function OurMovementPage() {
           className="absolute top-8 left-8 flex items-center gap-2 text-white hover:text-primary-300 transition-colors group"
         >
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-200" />
-          <span>Retour à l'accueil</span>
+          <span>Retour à l&apos;accueil</span>
         </button>
 
         {/* Title Overlay */}
@@ -86,10 +86,10 @@ export default function OurMovementPage() {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">
-                Qu'est-ce que <span className="text-primary-400">Citoyens en Action</span> ?
+                Qu&apos;est-ce que <span className="text-primary-400">Citoyens en Action</span> ?
               </h1>
               <p className="text-xl text-white/90">
-                Citoyens en Action est un mouvement politique progressiste de base dédié à créer un changement positif dans notre communauté par la collaboration, l'innovation et un engagement authentique envers le service public.
+                Citoyens en Action est un mouvement politique progressiste de base dédié à créer un changement positif dans notre communauté par la collaboration, l&apos;innovation et un engagement authentique envers le service public.
               </p>
             </motion.div>
           </div>
@@ -111,10 +111,10 @@ export default function OurMovementPage() {
               </h2>
               <div className="space-y-4 text-gray-700 text-lg">
                 <p>
-                  Citoyens en Action est né d'une idée simple mais puissante : que le vrai changement vient des citoyens travaillant ensemble pour relever les défis auxquels fait face leur communauté.
+                  Citoyens en Action est né d&apos;une idée simple mais puissante : que le vrai changement vient des citoyens travaillant ensemble pour relever les défis auxquels fait face leur communauté.
                 </p>
                 <p>
-                  Nous avons commencé avec un petit groupe de voisins préoccupés qui ont vu des problèmes dans notre quartier—des préoccupations de sécurité autour de l'installation Open Door à l'abordabilité inadéquate du logement, des parcs négligés aux problèmes de sécurité routière. Plutôt que de simplement nous plaindre, nous avons décidé d'agir.
+                  Nous avons commencé avec un petit groupe de voisins préoccupés qui ont vu des problèmes dans notre quartier—des préoccupations de sécurité autour de l&apos;installation Open Door à l&apos;abordabilité inadéquate du logement, des parcs négligés aux problèmes de sécurité routière. Plutôt que de simplement nous plaindre, nous avons décidé d&apos;agir.
                 </p>
                 <p>
                   Aujourd'hui, nous sommes devenus un mouvement dynamique de citoyens engagés, de leaders communautaires, d'étudiants, de familles et d'aînés—tous unis par une vision partagée d'une communauté meilleure et plus vivable pour tous.

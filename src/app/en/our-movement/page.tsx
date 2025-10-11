@@ -117,7 +117,7 @@ export default function OurMovementPage() {
                   We started with a small group of concerned neighbors who saw issues in our district—from safety concerns around the Open Door facility to inadequate housing affordability, from neglected parks to traffic safety problems. Rather than simply complaining, we decided to act.
                 </p>
                 <p>
-                  Today, we've grown into a vibrant movement of engaged citizens, community leaders, students, families, and seniors—all united by a shared vision of a better, more livable community for everyone.
+                  Today, we&apos;ve grown into a vibrant movement of engaged citizens, community leaders, students, families, and seniors—all united by a shared vision of a better, more livable community for everyone.
                 </p>
               </div>
             </motion.div>
@@ -194,7 +194,7 @@ export default function OurMovementPage() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What We've Accomplished
+              What We&apos;ve Accomplished
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Real results through community engagement and dedicated action
