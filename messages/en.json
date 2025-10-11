@@ -8,10 +8,24 @@
     "contact": "Contact"
   },
   "Hero": {
-    "name": "Citoyens en Action",
-    "tagline": "A progressive political movement committed to serving our community with integrity, transparency, and progressive values.",
-    "learnMore": "Learn More",
-    "getInvolved": "Get Involved"
+    "slide1": {
+      "title": "What is \"Citoyens en Action\"",
+      "description": "A progressive political movement committed to serving our community with integrity, transparency, and progressive values.",
+      "primaryButton": "Learn More",
+      "secondaryButton": "Get Involved"
+    },
+    "slide2": {
+      "title": "Your Voice Matters",
+      "description": "Join our movement to address the key issues facing our neighborhood - from safety and housing to parks and quality of life.",
+      "primaryButton": "See Our Platform",
+      "secondaryButton": "Get Involved"
+    },
+    "slide3": {
+      "title": "Building Stronger Communities",
+      "description": "Together we can create positive change through collaborative leadership, innovative policies, and genuine community engagement.",
+      "primaryButton": "Our Vision",
+      "secondaryButton": "Join Us"
+    }
   },
   "About": {
     "title": "About Our Movement",

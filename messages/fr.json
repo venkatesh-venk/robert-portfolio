@@ -8,10 +8,24 @@
     "contact": "Contact"
   },
   "Hero": {
-    "name": "Citoyens en Action",
-    "tagline": "Un mouvement politique progressiste engagé à servir notre communauté avec intégrité, transparence et valeurs progressistes.",
-    "learnMore": "En savoir plus",
-    "getInvolved": "S'impliquer"
+    "slide1": {
+      "title": "Qu'est-ce que Citoyens en Action",
+      "description": "Un mouvement politique progressiste engagé à servir notre communauté avec intégrité, transparence et valeurs progressistes.",
+      "primaryButton": "En savoir plus",
+      "secondaryButton": "S'impliquer"
+    },
+    "slide2": {
+      "title": "Votre voix compte",
+      "description": "Rejoignez notre mouvement pour aborder les enjeux clés auxquels notre quartier fait face - de la sécurité et du logement aux parcs et à la qualité de vie.",
+      "primaryButton": "Voir notre plateforme",
+      "secondaryButton": "S'impliquer"
+    },
+    "slide3": {
+      "title": "Bâtir des communautés plus fortes",
+      "description": "Ensemble, nous pouvons créer un changement positif grâce à un leadership collaboratif, des politiques innovantes et un véritable engagement communautaire.",
+      "primaryButton": "Notre vision",
+      "secondaryButton": "Rejoignez-nous"
+    }
   },
   "About": {
     "title": "À propos de notre mouvement",
