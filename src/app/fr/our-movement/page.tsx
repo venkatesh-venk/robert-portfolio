@@ -117,7 +117,7 @@ export default function OurMovementPage() {
                   Nous avons commencé avec un petit groupe de voisins préoccupés qui ont vu des problèmes dans notre quartier—des préoccupations de sécurité autour de l&apos;installation Open Door à l&apos;abordabilité inadéquate du logement, des parcs négligés aux problèmes de sécurité routière. Plutôt que de simplement nous plaindre, nous avons décidé d&apos;agir.
                 </p>
                 <p>
-                  Aujourd'hui, nous sommes devenus un mouvement dynamique de citoyens engagés, de leaders communautaires, d'étudiants, de familles et d'aînés—tous unis par une vision partagée d'une communauté meilleure et plus vivable pour tous.
+                  Aujourd&apos;hui, nous sommes devenus un mouvement dynamique de citoyens engagés, de leaders communautaires, d&apos;étudiants, de familles et d&apos;aînés—tous unis par une vision partagée d&apos;une communauté meilleure et plus vivable pour tous.
                 </p>
               </div>
             </motion.div>
@@ -197,7 +197,7 @@ export default function OurMovementPage() {
               Ce que nous avons accompli
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Des résultats concrets grâce à l'engagement communautaire et à l'action dédiée
+              Des résultats concrets grâce à l&apos;engagement communautaire et à l&apos;action dédiée
             </p>
           </motion.div>
 
@@ -251,7 +251,7 @@ export default function OurMovementPage() {
                 href="/fr/community"
                 className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition-colors duration-200 shadow-lg hover:shadow-xl"
               >
-                S'impliquer
+                S&apos;impliquer
               </Link>
               <Link
                 href="/fr#issues"
