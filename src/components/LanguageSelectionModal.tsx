@@ -41,10 +41,10 @@ const LanguageSelectionModal = () => {
       >
         {/* Welcome Text */}
         <div className="text-center mb-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-white tracking-wide drop-shadow-2xl">
+          <h1 className="text-4xl md:text-5xl font-bold text-black tracking-wide drop-shadow-2xl">
             Bienvenue
           </h1>
-          <p className="mt-3 text-white/90 text-lg drop-shadow-lg">
+          <p className="mt-3 text-black/90 text-lg drop-shadow-lg">
             Veuillez sélectionner votre langue
           </p>
         </div>
@@ -78,7 +78,7 @@ const LanguageSelectionModal = () => {
 
         {/* Tagline */}
         <div className="mt-4">
-          <p className="text-2xl md:text-7xl font-semibold text-white tracking-wide drop-shadow-2xl">
+          <p className="text-2xl md:text-7xl font-semibold text-black tracking-wide drop-shadow-2xl">
             Citoyens en Action
           </p>
         </div>
