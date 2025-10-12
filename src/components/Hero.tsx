@@ -60,6 +60,29 @@ const Hero = () => {
     router.push(`/${locale}/our-movement`);
   };
 
+  const handlePrimaryButton = () => {
+    if (currentSlideIndex === 0) {
+      // Slide 1: WHAT - Learn More about the movement
+      router.push(`/${locale}/our-movement`);
+    } else if (currentSlideIndex === 1) {
+      // Slide 2: WHO - Meet Our Team (navigate to team page)
+      router.push(`/${locale}/team`);
+    } else if (currentSlideIndex === 2) {
+      // Slide 3: WHERE - Find Us Locally (navigate to community locations page)
+      router.push(`/${locale}/community-locations`);
+    }
+  };
+
+  const handleSecondaryButton = () => {
+    if (currentSlideIndex === 1) {
+      // Slide 2: WHO - Join the Movement (scroll to community section)
+      document.getElementById('community')?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // All other slides: Get Involved (navigate to community page)
+      router.push(`/${locale}/community`);
+    }
+  };
+
   const nextSlide = () => {
     setCurrentSlideIndex((prevIndex) => (prevIndex + 1) % slides.length);
   };
@@ -138,13 +161,13 @@ const Hero = () => {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <button 
-                  onClick={handleLearnMore}
+                  onClick={handlePrimaryButton}
                   className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition-colors duration-200 shadow-lg hover:shadow-xl"
                 >
                   {currentSlide.primaryButton}
                 </button>
                 <button 
-                  onClick={handleGetInvolved}
+                  onClick={handleSecondaryButton}
                   className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-600 hover:text-white transition-colors duration-200"
                 >
                   {currentSlide.secondaryButton}

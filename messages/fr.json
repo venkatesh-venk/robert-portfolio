@@ -15,24 +15,27 @@
       "secondaryButton": "S'impliquer"
     },
     "slide2": {
-      "title": "Votre voix compte",
-      "description": "Rejoignez notre mouvement pour aborder les enjeux clés auxquels notre quartier fait face - de la sécurité et du logement aux parcs et à la qualité de vie.",
-      "primaryButton": "Voir notre plateforme",
-      "secondaryButton": "S'impliquer"
+      "title": "Qui sommes-nous",
+      "description": "Rencontrez Robert Fradette et notre équipe de leaders communautaires dévoués, de bénévoles et de citoyens ordinaires travaillant ensemble pour un changement positif.",
+      "primaryButton": "Notre équipe",
+      "secondaryButton": "Joignez le mouvement"
     },
     "slide3": {
-      "title": "Bâtir des communautés plus fortes",
-      "description": "Ensemble, nous pouvons créer un changement positif grâce à un leadership collaboratif, des politiques innovantes et un véritable engagement communautaire.",
-      "primaryButton": "Notre vision",
-      "secondaryButton": "Rejoignez-nous"
+      "title": "Dans votre communauté",
+      "description": "De Milton-Parc au Mile End - nous sommes actifs dans votre quartier avec des assemblées publiques, des événements de bénévolat et du porte-à-porte.",
+      "primaryButton": "Trouvez-nous localement",
+      "secondaryButton": "S'impliquer"
     }
   },
   "About": {
-    "title": "À propos de notre mouvement",
-    "subtitle": "Un mouvement politique dévoué axé sur le développement communautaire et l'élaboration de politiques progressistes. Citoyens en Action apporte des perspectives nouvelles et un leadership collaboratif pour relever les défis auxquels fait face notre communauté.",
-    "visionTitle": "Une vision du progrès",
+    "title": "Qui sommes-nous",
+    "subtitle": "Rencontrez les personnes derrière Citoyens en Action - des leaders communautaires dévoués, des bénévoles passionnés et des citoyens ordinaires travaillant ensemble pour un changement positif.",
+    "leaderBadge": "Chef du parti",
+    "leaderName": "Robert Fradette",
+    "leaderTitle": "Candidat au conseil municipal",
     "visionText1": "Citoyens en Action se consacre à construire des communautés plus fortes grâce à des solutions politiques innovantes et un leadership collaboratif. Notre approche combine la prise de décision basée sur les données avec un véritable souci des personnes que nous servons.",
     "visionText2": "Avec un accent sur le service public et l'organisation communautaire, notre mouvement comprend à la fois les défis et les opportunités qui nous attendent dans notre district. Nous nous engageons à créer des politiques qui favorisent la croissance économique, la durabilité environnementale et l'équité sociale.",
+    "valuesHeading": "Nos valeurs de leadership",
     "values": {
       "communityFirst": {
         "title": "Communauté d'abord",
@@ -51,6 +54,22 @@
       "publicAdministration": "Administration publique",
       "communityDevelopment": "Développement communautaire",
       "policyInnovation": "Innovation politique"
+    },
+    "movementHeading": "Le mouvement derrière nous",
+    "movementSubheading": "Écoutez les membres de la communauté qui conduisent le changement dans nos quartiers.",
+    "testimonials": {
+      "supporter1": {
+        "role": "Résident local, Milton-Parc",
+        "text": "Citoyens en Action a écouté nos préoccupations concernant la sécurité et a pris des mesures concrètes. Enfin, nous avons des leaders qui se soucient."
+      },
+      "supporter2": {
+        "role": "Propriétaire de petite entreprise",
+        "text": "Ce mouvement comprend les défis auxquels nous sommes confrontés. Ils se battent pour des rues plus sûres et un quartier plus propre qui profite à tous."
+      },
+      "supporter3": {
+        "role": "Étudiant et bénévole",
+        "text": "Je me suis joint parce que je voulais faire une différence. Cette équipe nous donne le pouvoir de créer un changement réel dans notre communauté."
+      }
     }
   },
   "Issues": {
@@ -158,8 +177,36 @@
     "french": "Français"
   },
   "Community": {
-    "title": "Forum Communautaire",
-    "subtitle": "Partagez vos pensées, préoccupations et idées avec la communauté. C'est votre espace pour engager des conversations significatives et vous connecter avec vos concitoyens.",
+    "title": "Dans votre communauté",
+    "subtitle": "Nous sommes actifs dans votre quartier, organisant des événements, animant des assemblées publiques et travaillant directement avec les résidents pour créer un changement positif.",
+    "mapHeading": "Au service du Plateau-Mont-Royal",
+    "mapSubheading": "De Milton-Parc au Mile End - nous sommes là pour vous",
+    "locationsHeading": "Nos communautés clés",
+    "locations": {
+      "miltonParc": "Cœur de la vie étudiante avec un engagement communautaire actif. Nous abordons les préoccupations de sécurité et améliorons la qualité de vie.",
+      "mileEnd": "Pôle culturel dynamique où nous travaillons sur le soutien aux petites entreprises et l'amélioration de la sécurité routière.",
+      "plateauEast": "Quartiers résidentiels où nous nous concentrons sur les parcs, les espaces verts et les initiatives familiales."
+    },
+    "initiativesHeading": "Impliquez-vous localement",
+    "initiatives": {
+      "townHalls": {
+        "title": "Assemblées publiques communautaires",
+        "description": "Rassemblements mensuels où les résidents partagent leurs préoccupations, posent des questions et aident à façonner nos politiques. Votre voix compte !"
+      },
+      "volunteerEvents": {
+        "title": "Événements de bénévolat",
+        "description": "Rejoignez-nous pour des nettoyages communautaires, l'embellissement des parcs et des projets d'amélioration du quartier."
+      },
+      "doorKnocking": {
+        "title": "Sensibilisation porte-à-porte",
+        "description": "Rencontrez notre équipe en personne. Nous visitons chaque rue pour écouter vos préoccupations et partager notre vision."
+      }
+    },
+    "learnMore": "En savoir plus",
+    "ctaHeading": "Faites une différence dans votre quartier",
+    "ctaSubheading": "Que vous puissiez faire du bénévolat une heure ou devenir organisateur communautaire, il y a une place pour vous dans notre mouvement.",
+    "joinUsButton": "Rejoignez notre équipe",
+    "contactButton": "Contactez-nous",
     "postMessage": "Publier un Message",
     "emailLabel": "Votre Courriel",
     "emailPlaceholder": "votre.courriel@exemple.com",

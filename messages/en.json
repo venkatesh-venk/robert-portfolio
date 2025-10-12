@@ -15,24 +15,27 @@
       "secondaryButton": "Get Involved"
     },
     "slide2": {
-      "title": "Your Voice Matters",
-      "description": "Join our movement to address the key issues facing our neighborhood - from safety and housing to parks and quality of life.",
-      "primaryButton": "See Our Platform",
-      "secondaryButton": "Get Involved"
+      "title": "Who We Are",
+      "description": "Meet Robert Fradette and our team of dedicated community leaders, volunteers, and everyday citizens working together for positive change.",
+      "primaryButton": "Meet Our Team",
+      "secondaryButton": "Join the Movement"
     },
     "slide3": {
-      "title": "Building Stronger Communities",
-      "description": "Together we can create positive change through collaborative leadership, innovative policies, and genuine community engagement.",
-      "primaryButton": "Our Vision",
-      "secondaryButton": "Join Us"
+      "title": "In Your Community",
+      "description": "From Milton-Parc to Mile End - we're active in your neighborhood with town halls, volunteer events, and door-to-door outreach.",
+      "primaryButton": "Find Us Locally",
+      "secondaryButton": "Get Involved"
     }
   },
   "About": {
-    "title": "About Our Movement",
-    "subtitle": "A dedicated political movement focused on community development and progressive policy making. Citoyens en Action brings fresh perspectives and collaborative leadership to address the challenges facing our community.",
-    "visionTitle": "A Vision for Progress",
+    "title": "Who We Are",
+    "subtitle": "Meet the people behind Citoyens en Action - dedicated community leaders, passionate volunteers, and everyday citizens working together for positive change.",
+    "leaderBadge": "Party Leader",
+    "leaderName": "Robert Fradette",
+    "leaderTitle": "Candidate for City Council",
     "visionText1": "Citoyens en Action is dedicated to building stronger communities through innovative policy solutions and collaborative leadership. Our approach combines data-driven decision making with genuine care for the people we serve.",
     "visionText2": "With a focus on public service and community organizing, our movement understands both the challenges and opportunities that lie ahead for our district. We are committed to creating policies that promote economic growth, environmental sustainability, and social equity.",
+    "valuesHeading": "Our Leadership Values",
     "values": {
       "communityFirst": {
         "title": "Community First",
@@ -51,6 +54,22 @@
       "publicAdministration": "Public Administration",
       "communityDevelopment": "Community Development",
       "policyInnovation": "Policy Innovation"
+    },
+    "movementHeading": "The Movement Behind Us",
+    "movementSubheading": "Hear from the community members who are driving change in our neighborhoods.",
+    "testimonials": {
+      "supporter1": {
+        "role": "Local Resident, Milton-Parc",
+        "text": "Citoyens en Action listened to our concerns about safety and took real action. Finally, we have leaders who care."
+      },
+      "supporter2": {
+        "role": "Small Business Owner",
+        "text": "This movement understands the challenges we face. They're fighting for safer streets and a cleaner neighborhood that benefits everyone."
+      },
+      "supporter3": {
+        "role": "Student & Volunteer",
+        "text": "I joined because I wanted to make a difference. This team empowers us to create real change in our community."
+      }
     }
   },
   "Issues": {
@@ -158,8 +177,36 @@
     "french": "Français"
   },
   "Community": {
-    "title": "Community Board",
-    "subtitle": "Share your thoughts, concerns, and ideas with the community. This is your space to engage in meaningful conversations and connect with fellow citizens.",
+    "title": "In Your Community",
+    "subtitle": "We're active in your neighborhood, organizing events, hosting town halls, and working directly with residents to create positive change.",
+    "mapHeading": "Serving Plateau-Mont-Royal",
+    "mapSubheading": "From Milton-Parc to Mile End - we're here for you",
+    "locationsHeading": "Our Key Communities",
+    "locations": {
+      "miltonParc": "Heart of student life with active community engagement. We're addressing safety concerns and improving quality of life.",
+      "mileEnd": "Vibrant cultural hub where we're working on small business support and traffic safety improvements.",
+      "plateauEast": "Residential neighborhoods where we focus on parks, green spaces, and family-friendly initiatives."
+    },
+    "initiativesHeading": "Get Involved Locally",
+    "initiatives": {
+      "townHalls": {
+        "title": "Community Town Halls",
+        "description": "Monthly gatherings where residents share concerns, ask questions, and help shape our policies. Your voice matters!"
+      },
+      "volunteerEvents": {
+        "title": "Volunteer Events",
+        "description": "Join us for community clean-ups, park beautification, and neighborhood improvement projects."
+      },
+      "doorKnocking": {
+        "title": "Door-to-Door Outreach",
+        "description": "Meet our team face-to-face. We visit every street to listen to your concerns and share our vision."
+      }
+    },
+    "learnMore": "Learn More",
+    "ctaHeading": "Make a Difference in Your Neighborhood",
+    "ctaSubheading": "Whether you can volunteer an hour or want to become a community organizer, there's a place for you in our movement.",
+    "joinUsButton": "Join Our Team",
+    "contactButton": "Contact Us",
     "postMessage": "Post a Message",
     "emailLabel": "Your Email",
     "emailPlaceholder": "your.email@example.com",
