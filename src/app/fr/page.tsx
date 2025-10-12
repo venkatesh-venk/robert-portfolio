@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Community from "@/components/Community";
 import Issues from "@/components/Issues";
-import Experience from "@/components/Experience";
 import Donate from "@/components/Donate";
 import Contact from "@/components/Contact";
 import Navigation from "@/components/Navigation";
@@ -15,7 +14,6 @@ export default function FrHome() {
       <About />        {/* Section 2: QUI - Les Personnes & Le Mouvement */}
       <Community />    {/* Section 3: OÙ - La Communauté & L'Action */}
       <Issues />       {/* Plateforme/Enjeux */}
-      <Experience />
       <Donate />
       <Contact />
     </main>
