@@ -19,7 +19,7 @@ export default function TeamPage() {
       role: "Party Leader & Candidate",
       bio: "Dedicated to building stronger communities through innovative policy solutions and collaborative leadership.",
       image: "/images/member_pictures/robert.JPG",
-      email: "robert@citoyensenaction.ca",
+      email: "robertfradette@citoyensenaction.org",
       linkedin: "#"
     },
     // Add more team members here as needed
@@ -28,7 +28,7 @@ export default function TeamPage() {
       role: "Campaign Manager",
       bio: "Passionate about grassroots organizing and community engagement.",
       image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
+      email: "arjunlokhande@citoyensenaction.org",
       linkedin: "#"
     },
     {
@@ -36,7 +36,7 @@ export default function TeamPage() {
       role: "Policy Advisor",
       bio: "Expert in urban planning and sustainable community development.",
       image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
+      email: "venkateshchaudhary@citoyensenaction.org",
       linkedin: "#"
     },
     {
@@ -168,24 +168,28 @@ export default function TeamPage() {
                     {member.bio}
                   </p>
 
-                  {/* Contact Icons */}
-                  <div className="flex gap-3 pt-4 border-t border-gray-100">
+                  {/* Contact Info */}
+                  <div className="pt-4 border-t border-gray-100 space-y-3">
                     <a
                       href={`mailto:${member.email}`}
-                      className="flex items-center justify-center w-10 h-10 rounded-full bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-colors duration-200"
-                      aria-label="Email"
+                      className="flex items-center gap-2 text-sm text-primary-600 hover:text-primary-700 transition-colors group"
                     >
-                      <Mail className="w-5 h-5" />
+                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary-100 group-hover:bg-primary-600 transition-colors duration-200">
+                        <Mail className="w-4 h-4 group-hover:text-white transition-colors duration-200" />
+                      </div>
+                      <span className="font-medium">{member.email}</span>
                     </a>
                     {member.linkedin !== "#" && (
                       <a
                         href={member.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center justify-center w-10 h-10 rounded-full bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-colors duration-200"
-                        aria-label="LinkedIn"
+                        className="flex items-center gap-2 text-sm text-primary-600 hover:text-primary-700 transition-colors group"
                       >
-                        <Linkedin className="w-5 h-5" />
+                        <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary-100 group-hover:bg-primary-600 transition-colors duration-200">
+                          <Linkedin className="w-4 h-4 group-hover:text-white transition-colors duration-200" />
+                        </div>
+                        <span className="font-medium">LinkedIn Profile</span>
                       </a>
                     )}
                   </div>

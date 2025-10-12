@@ -168,24 +168,28 @@ export default function TeamPage() {
                     {member.bio}
                   </p>
 
-                  {/* Contact Icons */}
-                  <div className="flex gap-3 pt-4 border-t border-gray-100">
+                  {/* Contact Info */}
+                  <div className="pt-4 border-t border-gray-100 space-y-3">
                     <a
                       href={`mailto:${member.email}`}
-                      className="flex items-center justify-center w-10 h-10 rounded-full bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-colors duration-200"
-                      aria-label="Courriel"
+                      className="flex items-center gap-2 text-sm text-primary-600 hover:text-primary-700 transition-colors group"
                     >
-                      <Mail className="w-5 h-5" />
+                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary-100 group-hover:bg-primary-600 transition-colors duration-200">
+                        <Mail className="w-4 h-4 group-hover:text-white transition-colors duration-200" />
+                      </div>
+                      <span className="font-medium">{member.email}</span>
                     </a>
                     {member.linkedin !== "#" && (
                       <a
                         href={member.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center justify-center w-10 h-10 rounded-full bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-colors duration-200"
-                        aria-label="LinkedIn"
+                        className="flex items-center gap-2 text-sm text-primary-600 hover:text-primary-700 transition-colors group"
                       >
-                        <Linkedin className="w-5 h-5" />
+                        <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary-100 group-hover:bg-primary-600 transition-colors duration-200">
+                          <Linkedin className="w-4 h-4 group-hover:text-white transition-colors duration-200" />
+                        </div>
+                        <span className="font-medium">Profil LinkedIn</span>
                       </a>
                     )}
                   </div>
