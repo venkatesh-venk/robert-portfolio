@@ -41,13 +41,13 @@ const Hero = () => {
     },
   ];
 
-  // Auto-rotate slides every 7 seconds
+  // Auto-rotate slides every 10 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlideIndex((prevIndex) => 
         (prevIndex + 1) % slides.length
       );
-    }, 7000);
+    }, 12000);
 
     return () => clearInterval(interval);
   }, [slides.length]);
