@@ -2,7 +2,6 @@
 
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import Image from 'next/image';
 
 const LanguageSelectionModal = () => {
   const router = useRouter();
@@ -21,16 +20,20 @@ const LanguageSelectionModal = () => {
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col items-center justify-center overflow-hidden">
-      {/* Background Image with Blur Overlay */}
+      {/* Background Video with Loop */}
       <div className="absolute inset-0">
-        <Image
-          src="/images/cia_poster.png"
-          alt="Background"
-          fill
-          className="object-contain"
-          priority
-          quality={100}
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/video/replicate-prediction-z6q5yxkaxnrmc0csvcdskk1fym.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* Dark overlay to make text more readable */}
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       {/* Content Container */}
@@ -41,10 +44,12 @@ const LanguageSelectionModal = () => {
       >
         {/* Welcome Text */}
         <div className="text-center mb-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-black tracking-wide drop-shadow-2xl">
+          <h1 className="text-4xl md:text-5xl font-bold text-white tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]" 
+              style={{ textShadow: '0 2px 4px rgba(0,0,0,0.8), 0 4px 8px rgba(0,0,0,0.6)' }}>
             Bienvenue
           </h1>
-          <p className="mt-3 text-black/90 text-lg drop-shadow-lg">
+          <p className="mt-3 text-white text-lg drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"
+             style={{ textShadow: '0 2px 4px rgba(0,0,0,0.8)' }}>
             Veuillez sélectionner votre langue
           </p>
         </div>
@@ -56,8 +61,8 @@ const LanguageSelectionModal = () => {
             disabled={isAnimating}
             className={`relative px-16 py-8 text-3xl font-semibold rounded-full transition-all duration-300 transform ${
               selectedLanguage === 'fr'
-                ? 'bg-primary-600 text-white shadow-2xl scale-110'
-                : 'bg-white/90 text-gray-800 border-2 border-white/60 hover:bg-white hover:scale-105 shadow-xl'
+                ? 'bg-orange-500 text-white shadow-2xl scale-110 ring-4 ring-orange-300/50'
+                : 'bg-white text-gray-800 border-2 border-white hover:bg-orange-50 hover:scale-105 shadow-2xl'
             }`}
           >
             FR
@@ -68,8 +73,8 @@ const LanguageSelectionModal = () => {
             disabled={isAnimating}
             className={`relative px-16 py-8 text-3xl font-semibold rounded-full transition-all duration-300 transform ${
               selectedLanguage === 'en'
-                ? 'bg-primary-600 text-white shadow-2xl scale-110'
-                : 'bg-white/90 text-gray-800 border-2 border-white/60 hover:bg-white hover:scale-105 shadow-xl'
+                ? 'bg-orange-500 text-white shadow-2xl scale-110 ring-4 ring-orange-300/50'
+                : 'bg-white text-gray-800 border-2 border-white hover:bg-orange-50 hover:scale-105 shadow-2xl'
             }`}
           >
             EN
@@ -78,7 +83,8 @@ const LanguageSelectionModal = () => {
 
         {/* Tagline */}
         <div className="mt-4">
-          <p className="text-2xl md:text-7xl font-semibold text-black tracking-wide drop-shadow-2xl">
+          <p className="text-2xl md:text-7xl font-semibold text-white tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]"
+             style={{ textShadow: '0 2px 4px rgba(0,0,0,0.8), 0 4px 8px rgba(0,0,0,0.6)' }}>
             Citoyens en Action
           </p>
         </div>
