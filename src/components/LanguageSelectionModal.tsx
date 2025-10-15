@@ -29,7 +29,7 @@ const LanguageSelectionModal = () => {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/video/replicate-prediction-z6q5yxkaxnrmc0csvcdskk1fym.mp4" type="video/mp4" />
+          <source src="/video/stick_man_animation.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         {/* Dark overlay to make text more readable */}
