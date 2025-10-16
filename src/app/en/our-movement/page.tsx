@@ -48,10 +48,10 @@ export default function OurMovementPage() {
 
   const achievements = [
     "Successfully advocated for increased police presence in Milton-Parc area",
-    "Led community consultations with over 500+ residents",
+    "Led community consultations with over 250+ residents",
     "Developed comprehensive housing affordability proposals",
     "Partnered with local organizations on environmental initiatives",
-    "Organized community clean-up events with 200+ volunteers"
+    "Organized community clean-up events"
   ];
 
   return (

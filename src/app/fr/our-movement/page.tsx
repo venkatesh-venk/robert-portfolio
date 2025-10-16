@@ -48,10 +48,10 @@ export default function OurMovementPage() {
 
   const achievements = [
     "Plaidé avec succès pour une présence policière accrue dans le secteur Milton-Parc",
-    "Mené des consultations communautaires avec plus de 500 résidents",
+    "Mené des consultations communautaires avec plus de 250 résidents",
     "Développé des propositions complètes sur l'abordabilité du logement",
     "Partenariat avec des organisations locales sur des initiatives environnementales",
-    "Organisé des événements de nettoyage communautaire avec plus de 200 bénévoles"
+    "Organisé des événements de nettoyage communautaire"
   ];
 
   return (
