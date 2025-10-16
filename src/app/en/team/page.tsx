@@ -19,7 +19,7 @@ export default function TeamPage() {
       role: "Party Leader & Candidate",
       bio: "Dedicated to building stronger communities through innovative policy solutions and collaborative leadership.",
       image: "/images/member_pictures/robert.JPG",
-      email: "robertfradette@citoyensenaction.org",
+      email: "-",
       linkedin: "#"
     },
     // Add more team members here as needed
@@ -28,39 +28,23 @@ export default function TeamPage() {
       role: "Campaign Manager",
       bio: "Passionate about grassroots organizing and community engagement.",
       image: "/images/member_pictures/default-avatar.png",
-      email: "arjunlokhande@citoyensenaction.org",
+      email: "-",
       linkedin: "#"
     },
     {
       name: "Venkatesh Chaudhary",
-      role: "Policy Advisor",
-      bio: "Expert in urban planning and sustainable community development.",
+      role: "Digital Media Specialist & Communications Strategist",
+      bio: "Bringing innovative digital strategies and creative storytelling to amplify our community's voice. Passionate about using technology to engage citizens and drive meaningful dialogue.",
       image: "/images/member_pictures/default-avatar.png",
-      email: "venkateshchaudhary@citoyensenaction.org",
+      email: "-",
       linkedin: "#"
     },
     {
-      name: "Team Member 4",
+      name: "Sandrine",
       role: "Community Outreach Coordinator",
       bio: "Building bridges between the movement and local residents.",
       image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
-      linkedin: "#"
-    },
-    {
-      name: "Team Member 5",
-      role: "Communications Director",
-      bio: "Ensuring our message reaches every corner of the community.",
-      image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
-      linkedin: "#"
-    },
-    {
-      name: "Team Member 6",
-      role: "Volunteer Coordinator",
-      bio: "Empowering volunteers to make a real difference in our neighborhoods.",
-      image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
+      email: "-",
       linkedin: "#"
     }
   ];
