@@ -89,7 +89,7 @@ export default function OurMovementPage() {
                 What is <span className="text-primary-400">Citoyens en Action</span>?
               </h1>
               <p className="text-xl text-white/90">
-                Citoyens en Action is a grassroots progressive political movement dedicated to creating positive change in our community through collaboration, innovation, and genuine commitment to public service.
+              Citoyens en Action is a progressive and environmentally conscious political movement dedicated to creating positive change in our community through collaboration, innovation, and a genuine commitment to public service.
               </p>
             </motion.div>
           </div>
