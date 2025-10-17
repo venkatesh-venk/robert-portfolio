@@ -40,9 +40,25 @@ export default function TeamPage() {
       linkedin: "#"
     },
     {
-      name: "Sandrine",
+      name: "Sandrine Rhodius",
       role: "Community Outreach Coordinator",
       bio: "Building bridges between the movement and local residents.",
+      image: "/images/member_pictures/default-avatar.png",
+      email: "-",
+      linkedin: "#"
+    },
+    {
+      name: "Andrée Deveault",
+      role: "Member",
+      bio: "-",
+      image: "/images/member_pictures/default-avatar.png",
+      email: "-",
+      linkedin: "#"
+    },
+    {
+      name: "Constance Dufour",
+      role: "Member",
+      bio: "-",
       image: "/images/member_pictures/default-avatar.png",
       email: "-",
       linkedin: "#"

@@ -15,8 +15,6 @@ const Navigation = () => {
     { name: t('home'), href: "#home" },
     { name: t('about'), href: "#about" },
     { name: t('issues'), href: "#issues" },
-    { name: t('experience'), href: "#experience" },
-    { name: t('donate'), href: "#donate" },
     { name: t('contact'), href: "#contact" },
   ];
 

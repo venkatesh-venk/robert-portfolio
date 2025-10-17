@@ -19,48 +19,48 @@ export default function TeamPage() {
       role: "Chef du parti et candidat",
       bio: "Dévoué à bâtir des communautés plus fortes grâce à des solutions politiques innovantes et un leadership collaboratif.",
       image: "/images/member_pictures/robert.JPG",
-      email: "robert@citoyensenaction.ca",
+      email: "-",
       linkedin: "#"
     },
     // Add more team members here as needed
     {
-      name: "Membre d'équipe 2",
+      name: "Arjun Lokhande",
       role: "Directeur de campagne",
       bio: "Passionné par l'organisation de base et l'engagement communautaire.",
       image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
+      email: "-",
       linkedin: "#"
     },
     {
-      name: "Membre d'équipe 3",
-      role: "Conseiller en politiques",
-      bio: "Expert en urbanisme et développement communautaire durable.",
+      name: "Venkatesh Chaudhary",
+      role: "Spécialiste des médias numériques et stratège en communication",
+      bio: "Apporter des stratégies numériques innovantes et une narration créative pour amplifier la voix de notre communauté. Passionné par l'utilisation de la technologie pour engager les citoyens et stimuler un dialogue significatif.",
       image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
+      email: "-",
       linkedin: "#"
     },
     {
-      name: "Membre d'équipe 4",
-      role: "Coordinateur de sensibilisation communautaire",
+      name: "Sandrine Rhodius",
+      role: "Coordinatrice de sensibilisation communautaire",
       bio: "Créer des ponts entre le mouvement et les résidents locaux.",
       image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
+      email: "-",
       linkedin: "#"
     },
     {
-      name: "Membre d'équipe 5",
-      role: "Directeur des communications",
-      bio: "Assurer que notre message atteigne chaque coin de la communauté.",
+      name: "Andrée Deveault",
+      role: "Membre",
+      bio: "-",
       image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
+      email: "-",
       linkedin: "#"
     },
     {
-      name: "Membre d'équipe 6",
-      role: "Coordinateur des bénévoles",
-      bio: "Donner aux bénévoles les moyens de faire une réelle différence dans nos quartiers.",
+      name: "Constance Dufour",
+      role: "Membre",
+      bio: "-",
       image: "/images/member_pictures/default-avatar.png",
-      email: "team@citoyensenaction.ca",
+      email: "-",
       linkedin: "#"
     }
   ];

@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useState } from "react";
+import { useTranslations } from '@/contexts/LocaleContext';
 
 const Contact = () => {
+  const t = useTranslations('Contact');
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -38,11 +40,10 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Get In Touch
+            {t('title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Have questions or want to get involved? I would love to hear from you. 
-            Together, we can build a better future for our community.
+            {t('subtitle')}
           </p>
         </motion.div>
 
@@ -54,14 +55,14 @@ const Contact = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Contact Information</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">{t('contactInformation')}</h3>
             <div className="space-y-6">
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                   <Mail className="w-6 h-6 text-primary-600" />
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">Email</p>
+                  <p className="font-semibold text-gray-900">{t('email')}</p>
                   <p className="text-gray-600">fradetterobert@gmail.com</p>
                 </div>
               </div>
@@ -71,7 +72,7 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-primary-600" />
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">Phone</p>
+                  <p className="font-semibold text-gray-900">{t('phone')}</p>
                   <p className="text-gray-600">(438) 827-3553</p>
                 </div>
               </div>
@@ -81,7 +82,7 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-primary-600" />
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">Office</p>
+                  <p className="font-semibold text-gray-900">{t('office')}</p>
                   <p className="text-gray-600">3540 Du Parc, Montreal, QC H2X 2H7</p>
                 </div>
               </div>
@@ -89,12 +90,12 @@ const Contact = () => {
 
             <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
               <h4 className="text-lg font-semibold text-gray-900 mb-4">
-                Campaign Office Hours
+                {t('campaignOfficeHours')}
               </h4>
               <div className="space-y-2 text-gray-600">
-                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p>Saturday: 10:00 AM - 4:00 PM</p>
-                <p>Sunday: Closed</p>
+                <p>{t('officeHours.weekdays')}</p>
+                <p>{t('officeHours.saturday')}</p>
+                <p>{t('officeHours.sunday')}</p>
               </div>
             </div>
           </motion.div>
@@ -107,12 +108,12 @@ const Contact = () => {
             viewport={{ once: true }}
           >
             <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Send a Message</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('sendMessage')}</h3>
               
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Full Name
+                    {t('form.fullName')}
                   </label>
                   <input
                     type="text"
@@ -126,7 +127,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email Address
+                    {t('form.emailAddress')}
                   </label>
                   <input
                     type="email"
@@ -142,7 +143,7 @@ const Contact = () => {
 
               <div className="mb-6">
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                  Subject
+                  {t('form.subject')}
                 </label>
                 <input
                   type="text"
@@ -157,7 +158,7 @@ const Contact = () => {
 
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                  Message
+                  {t('form.message')}
                 </label>
                 <textarea
                   id="message"
@@ -175,7 +176,7 @@ const Contact = () => {
                 className="w-full bg-primary-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 flex items-center justify-center"
               >
                 <Send className="w-5 h-5 mr-2" />
-                Send Message
+                {t('form.sendMessage')}
               </button>
             </form>
           </motion.div>
