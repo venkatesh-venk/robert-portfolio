@@ -23,7 +23,7 @@ export default function TeamPage() {
       role: t('team.robert.role'),
       shortBio: t('team.robert.shortBio'),
       fullBio: t('team.robert.fullBio'),
-      image: "/images/member_pictures/robert.JPG",
+      image: "/images/member_pictures/1_robert.png",
       email: "-",
       initial: "R"
     },
@@ -135,7 +135,7 @@ export default function TeamPage() {
             >
               <div className="relative rounded-2xl overflow-hidden w-96 h-96 shadow-2xl">
                 <Image
-                  src="/images/member_pictures/robert.JPG"
+                  src="/images/member_pictures/1_robert.png"
                   alt="Photo professionnelle de Robert Fradette"
                   fill
                   className="object-cover"
