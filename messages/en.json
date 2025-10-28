@@ -55,6 +55,39 @@
       "communityDevelopment": "Community Development",
       "policyInnovation": "Policy Innovation"
     },
+    "teamHeading": "Meet Our Team",
+    "team": {
+      "robert": {
+        "name": "Robert Fradette",
+        "role": "Party Leader & Candidate",
+        "shortBio": "Dedicated to building stronger communities through innovative policy solutions and collaborative leadership.",
+        "fullBio": "<h3>Chief of party Citoyens en Action</h3><p>Founder of Citoyens en Action, a movement born in Milton-Parc and now evolving into a new officially recognized municipal political party, he is running as an independent candidate in the 2025 municipal elections in the Plateau-Mont-Royal district.</p><p>As a professional in Social Work and Ecology, he has been employed for the past ten years by the CIUSSS Centre-Ouest-de-l'Île-de-Montréal's Info-Social 811 service. He is also the owner of a Land and Wildlife management company that has collaborated with the Biodôme, the City of Montréal, Longueuil and St-Bruno, Hydro-Québec, Sépaq, and the Ministry of Transport on various environmental protection projects.</p><p>He holds a Bachelor's degree in Social Work and a DEC in Land and Wildlife Management, and is pursuing studies in Ecology at UQAM.</p>"
+      },
+      "arjun": {
+        "name": "Arjun Lokhande",
+        "role": "Campaign Manager",
+        "shortBio": "Passionate about grassroots organizing and community engagement.",
+        "fullBio": "<h3>Campaign Manager for Robert Fradette's candidacy at municipal elections in Plateau Mont-Royal</h3><p>He is also a co-founder of Citoyens en Action.</p><p>He holds a Master's degree in Electrical and Computer Engineering from Concordia University and brings over 12 years of on-field experience as an electrical engineer. Beyond his technical career, he is deeply engaged in community life — helping elderly residents in the Milton-Parc neighborhood, supporting local cleanliness initiatives, and actively participating in social and environmental projects that strengthen our community.</p><p>As a responsible and proud Plateau resident, he keeps his home surroundings — from backyard to nearby public spaces — clean and welcoming. An immigrant from India, he also enjoys speaking French and continuously improves it by connecting with his neighbors in everyday life.</p><p>For him, civic engagement is about more than politics — it's about building a respectful, safe, and vibrant community where everyone feels valued.</p>"
+      },
+      "venkatesh": {
+        "name": "Venkatesh Chaudhary",
+        "role": "IT Director",
+        "shortBio": "As IT Director for Robert Fradette's campaign and co-founder of Citoyens en Action, Venkatesh brings the power of technology to grassroots politics in Montreal.",
+        "fullBio": "<h3>IT Director & Co-founder</h3><p>As IT Director for Robert Fradette's campaign and co-founder of Citoyens en Action, Venkatesh brings the power of technology to grassroots politics in Montreal. With an MBA from McGill University and a B.Tech in Computer Science, he combines strategic thinking with hands-on technical expertise.</p><p>By day, Venkatesh works as a Senior Infrastructure, MLOps, and DevOps Engineer at a global corporation, designing and managing complex technical systems. By evening, he channels this expertise into building digital platforms, designing communications, and creating tools that help citizens engage with their local government.</p><p>His vision is simple but powerful: technology should serve people, not the other way around. Whether architecting enterprise solutions or building websites for community movements, Venkatesh is committed to designing systems that make organizations more effective and democracy more accessible.</p>"
+      },
+      "sandrine": {
+        "name": "Sandrine Rhodius",
+        "role": "Communications Agent",
+        "shortBio": "A key communications agent in Milton-Parc, keeping many residents informed about the latest news in the neighborhood.",
+        "fullBio": "<h3>Key Communications Agent in Milton-Parc</h3><p>Sandrine keeps many residents informed about the latest news in her neighborhood.</p><p>A Belgian-Canadian citizen for nearly 25 years, she remains deeply connected to her culture through chocolate and Tintin.</p><p>A devoted mother of a large family and an ever-active volunteer, she gives her time generously.</p><p>A lover of animals, nature, and multidisciplinary art, she has an endless curiosity and a passion for learning and discovering new things every day.</p>"
+      },
+      "andree": {
+        "name": "Andrée Deveault",
+        "role": "Spokesperson - Milton-Parc Residents' Collective",
+        "shortBio": "Retired teacher and spokesperson for the Milton-Parc Residents' Collective, advocating for community safety and livability.",
+        "fullBio": "<h3>Retired Teacher and Spokesperson for the Milton-Parc Residents' Collective</h3><p>The Collective was founded by the late Martine Michaud in 2021 to give a voice to residents of the neighborhood who, while showing great compassion for people experiencing homelessness, deplore the visible deterioration of their community — unsanitary conditions, crime, incivility, and vandalism. The closer one gets to the intersection of Milton and Parc, the more unbearable the situation becomes.</p><p>Andrée has been actively involved in petitions, demonstrations, support for the Ombudsman, coordinating questions at borough council meetings, communicating with Collective members, and more recently, appearing in the media.</p><p>The Collective calls for people experiencing homelessness to be supported in a proper multi-service center, which means relocating Open Door in order to restore Milton-Parc's former peace and livability.</p>"
+      }
+    },
     "movementHeading": "The Movement Behind Us",
     "movementSubheading": "Hear from the community members who are driving change in our neighborhoods.",
     "testimonials": {

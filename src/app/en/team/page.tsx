@@ -1,12 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowLeft, Mail, Linkedin } from "lucide-react";
+import { ArrowLeft, Mail, X } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { useTranslations } from '@/contexts/LocaleContext';
 
 export default function TeamPage() {
   const router = useRouter();
+  const t = useTranslations('About');
+  const [selectedMember, setSelectedMember] = useState<number | null>(null);
 
   const handleBack = () => {
     router.back();
@@ -15,53 +19,49 @@ export default function TeamPage() {
   // Team members data
   const teamMembers = [
     {
-      name: "Robert Fradette",
-      role: "Party Leader & Candidate",
-      bio: "Dedicated to building stronger communities through innovative policy solutions and collaborative leadership.",
+      name: t('team.robert.name'),
+      role: t('team.robert.role'),
+      shortBio: t('team.robert.shortBio'),
+      fullBio: t('team.robert.fullBio'),
       image: "/images/member_pictures/robert.JPG",
       email: "-",
-      linkedin: "#"
-    },
-    // Add more team members here as needed
-    {
-      name: "Arjun Lokhande",
-      role: "Campaign Manager",
-      bio: "Passionate about grassroots organizing and community engagement.",
-      image: "/images/member_pictures/default-avatar.png",
-      email: "-",
-      linkedin: "#"
+      initial: "R"
     },
     {
-      name: "Venkatesh Chaudhary",
-      role: "Digital Media Specialist & Communications Strategist",
-      bio: "Bringing innovative digital strategies and creative storytelling to amplify our community's voice. Passionate about using technology to engage citizens and drive meaningful dialogue.",
-      image: "/images/member_pictures/default-avatar.png",
+      name: t('team.arjun.name'),
+      role: t('team.arjun.role'),
+      shortBio: t('team.arjun.shortBio'),
+      fullBio: t('team.arjun.fullBio'),
+      image: "/images/member_pictures/2_arjun.jpeg",
       email: "-",
-      linkedin: "#"
+      initial: "A"
     },
     {
-      name: "Sandrine Rhodius",
-      role: "Community Outreach Coordinator",
-      bio: "Building bridges between the movement and local residents.",
-      image: "/images/member_pictures/default-avatar.png",
+      name: t('team.venkatesh.name'),
+      role: t('team.venkatesh.role'),
+      shortBio: t('team.venkatesh.shortBio'),
+      fullBio: t('team.venkatesh.fullBio'),
+      image: null,
       email: "-",
-      linkedin: "#"
+      initial: "V"
     },
     {
-      name: "Andrée Deveault",
-      role: "Member",
-      bio: "-",
-      image: "/images/member_pictures/default-avatar.png",
+      name: t('team.sandrine.name'),
+      role: t('team.sandrine.role'),
+      shortBio: t('team.sandrine.shortBio'),
+      fullBio: t('team.sandrine.fullBio'),
+      image: "/images/member_pictures/4_Sandrine Rhodius.png",
       email: "-",
-      linkedin: "#"
+      initial: "S"
     },
     {
-      name: "Constance Dufour",
-      role: "Member",
-      bio: "-",
-      image: "/images/member_pictures/default-avatar.png",
+      name: t('team.andree.name'),
+      role: t('team.andree.role'),
+      shortBio: t('team.andree.shortBio'),
+      fullBio: t('team.andree.fullBio'),
+      image: "/images/member_pictures/5_Andrée Deveault.jpg",
       email: "-",
-      linkedin: "#"
+      initial: "A"
     }
   ];
 
@@ -107,6 +107,84 @@ export default function TeamPage() {
         </div>
       </div>
 
+      {/* Leader Bio Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Who We Are
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Meet the people behind Citoyens en Action - dedicated community leaders, passionate volunteers, and everyday citizens working together for positive change.
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-8">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="flex justify-center"
+            >
+              <div className="relative rounded-2xl overflow-hidden w-96 h-96 shadow-2xl">
+                <Image
+                  src="/images/member_pictures/robert.JPG"
+                  alt="Professional Photo of Robert Fradette"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="space-y-6"
+            >
+              <div className="inline-block bg-primary-100 text-primary-700 px-4 py-2 rounded-full text-sm font-semibold mb-2">
+                Party Leader
+              </div>
+              <h3 className="text-3xl font-bold text-gray-900">
+                Robert Fradette
+              </h3>
+              <p className="text-xl text-primary-600 font-semibold">
+                Candidate for City Council
+              </p>
+              <p className="text-gray-700 text-lg">
+                Founder of Citoyens en Action, a movement born in Milton-Parc and now evolving into a new officially recognized municipal political party, he is running as an independent candidate in the 2025 municipal elections in the Plateau-Mont-Royal district.
+              </p>
+              <p className="text-gray-700 text-lg">
+                As a professional in Social Work and Ecology, he has been employed for the past ten years by the CIUSSS Centre-Ouest-de-l&apos;Île-de-Montréal&apos;s Info-Social 811 service. He is also the owner of a Land and Wildlife management company that has collaborated with the Biodôme, the City of Montréal, Longueuil and St-Bruno, Hydro-Québec, Sépaq, and the Ministry of Transport on various environmental protection projects.
+              </p>
+              <p className="text-gray-700 text-lg">
+                He holds a Bachelor&apos;s degree in Social Work and a DEC in Land and Wildlife Management, and is pursuing studies in Ecology at UQAM.
+              </p>
+              <div className="flex flex-wrap gap-3 pt-4">
+                <span className="bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-medium border border-primary-200">
+                  Public Administration
+                </span>
+                <span className="bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-medium border border-primary-200">
+                  Community Development
+                </span>
+                <span className="bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-medium border border-primary-200">
+                  Policy Innovation
+                </span>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Team Members Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -134,25 +212,26 @@ export default function TeamPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+                onClick={() => setSelectedMember(index)}
+                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
               >
                 {/* Member Photo */}
-                <div className="relative h-80 w-full bg-gradient-to-br from-primary-100 to-primary-50">
-                  {member.image === "/images/member_pictures/default-avatar.png" ? (
-                    <div className="w-full h-full flex items-center justify-center">
-                      <div className="w-32 h-32 rounded-full bg-primary-200 flex items-center justify-center">
-                        <span className="text-4xl font-bold text-primary-600">
-                          {member.name.charAt(0)}
-                        </span>
-                      </div>
-                    </div>
-                  ) : (
+                <div className="relative h-80 w-full bg-gradient-to-br from-amber-200 to-amber-300">
+                  {member.image ? (
                     <Image
                       src={member.image}
                       alt={member.name}
                       fill
                       className="object-cover"
                     />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center">
+                      <div className="w-32 h-32 rounded-full bg-amber-100 flex items-center justify-center border-4 border-white">
+                        <span className="text-5xl font-bold text-amber-700">
+                          {member.initial}
+                        </span>
+                      </div>
+                    </div>
                   )}
                 </div>
 
@@ -164,34 +243,14 @@ export default function TeamPage() {
                   <p className="text-primary-600 font-semibold mb-3">
                     {member.role}
                   </p>
-                  <p className="text-gray-600 mb-4">
-                    {member.bio}
+                  <p className="text-gray-600 mb-4 line-clamp-3">
+                    {member.shortBio}
                   </p>
 
                   {/* Contact Info */}
-                  <div className="pt-4 border-t border-gray-100 space-y-3">
-                    <a
-                      href={`mailto:${member.email}`}
-                      className="flex items-center gap-2 text-sm text-primary-600 hover:text-primary-700 transition-colors group"
-                    >
-                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary-100 group-hover:bg-primary-600 transition-colors duration-200">
-                        <Mail className="w-4 h-4 group-hover:text-white transition-colors duration-200" />
-                      </div>
-                      <span className="font-medium">{member.email}</span>
-                    </a>
-                    {member.linkedin !== "#" && (
-                      <a
-                        href={member.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 text-sm text-primary-600 hover:text-primary-700 transition-colors group"
-                      >
-                        <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary-100 group-hover:bg-primary-600 transition-colors duration-200">
-                          <Linkedin className="w-4 h-4 group-hover:text-white transition-colors duration-200" />
-                        </div>
-                        <span className="font-medium">LinkedIn Profile</span>
-                      </a>
-                    )}
+                  <div className="pt-4 border-t border-gray-100 flex items-center gap-2 text-gray-500">
+                    <Mail className="w-4 h-4" />
+                    <span className="text-sm">{member.email}</span>
                   </div>
                 </div>
               </motion.div>
@@ -232,6 +291,68 @@ export default function TeamPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* Modal for Full Bio */}
+      {selectedMember !== null && (
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
+          onClick={() => setSelectedMember(null)}
+        >
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.9 }}
+            className="bg-white rounded-2xl max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex justify-between items-start z-10">
+              <div className="flex items-start gap-4">
+                {teamMembers[selectedMember].image ? (
+                  <div className="relative w-20 h-20 rounded-full overflow-hidden border-4 border-primary-100 flex-shrink-0">
+                    <Image
+                      src={teamMembers[selectedMember].image}
+                      alt={teamMembers[selectedMember].name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                ) : (
+                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-200 to-amber-300 flex items-center justify-center border-4 border-amber-100 flex-shrink-0">
+                    <span className="text-3xl font-bold text-amber-700">
+                      {teamMembers[selectedMember].initial}
+                    </span>
+                  </div>
+                )}
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900">
+                    {teamMembers[selectedMember].name}
+                  </h3>
+                  <p className="text-primary-600 font-semibold">
+                    {teamMembers[selectedMember].role}
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setSelectedMember(null)}
+                className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+              >
+                <X className="w-6 h-6 text-gray-500" />
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="p-6">
+              <div className="prose prose-lg max-w-none">
+                <div 
+                  className="text-gray-700 whitespace-pre-line"
+                  dangerouslySetInnerHTML={{ __html: teamMembers[selectedMember].fullBio }}
+                />
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      )}
     </div>
   );
 }
