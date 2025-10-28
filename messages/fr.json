@@ -55,6 +55,39 @@
       "communityDevelopment": "Développement communautaire",
       "policyInnovation": "Innovation politique"
     },
+    "teamHeading": "Rencontrez notre équipe",
+    "team": {
+      "robert": {
+        "name": "Robert Fradette",
+        "role": "Chef du parti & Candidat",
+        "shortBio": "Dévoué à bâtir des communautés plus fortes à travers des solutions politiques innovantes et un leadership collaboratif.",
+        "fullBio": "<h3>Chef du parti Citoyens en Action</h3><p>Fondateur de Citoyens en Action, un mouvement né dans Milton-Parc en phase de devenir un nouveau parti politique municipal officiellement reconnu, il en est le premier candidat indépendant de ce mouvement aux élections municipales 2025 dans le Plateau Mont-Royal.</p><p>Professionnel en Travail Social et en Écologie, Robert est un employé du CIUSSS Centre-Ouest de-l'île-de-Montréal pour le service Info-Social 811 depuis 10 ans. Il est aussi propriétaire d'une entreprise de gestion du territoire et de la faune qui a collaborée avec le Biodôme, la ville de Montréal, Longueuil et St-Bruno, Hydro-Québec, la Sépaq, et le Ministère des Transports sur des projets de protection de l'Environnement.</p><p>Titulaire d'un Baccalauréat en Travail Social et d'un DEC en Gestion du territoire et de la faune, il poursuit ses études en Écologie à l'UQAM.</p>"
+      },
+      "arjun": {
+        "name": "Arjun Lokhande",
+        "role": "Directeur de campagne",
+        "shortBio": "Passionné par l'organisation de base et l'engagement communautaire.",
+        "fullBio": "<h3>Directeur de campagne de Robert Fradette pour les élections municipales dans le Plateau Mont-Royal</h3><p>Il est aussi co-fondateur de Citoyens en Action.</p><p>Titulaire d'une maîtrise en génie électrique et de informatique de l'Université Concordia, il possède plus de douze ans d'expérience sur le terrain en tant qu'ingénieur électricien. Au-delà de sa carrière technique, il est profondément engagé dans la vie communautaire — aidant les résidents âgés du quartier Milton-Parc, il soutien les initiatives locales de propreté et participe activement à des projets sociaux et environnementaux qui renforcent notre communauté.</p><p>En tant que résident responsable et fier du Plateau, il veille à ce que son environnement — de sa résidence aux espaces publics avoisinants — reste propre et accueillant. Immigrant venu de l'Inde, il aime parler français et s'efforce de l'améliorer continuellement en échangeant avec ses voisins au quotidien.</p><p>Pour lui, l'engagement civique va bien au-delà de la politique — il s'agit de bâtir une communauté respectueuse, sûre et dynamique où chacun se sent valorisé.</p>"
+      },
+      "venkatesh": {
+        "name": "Venkatesh Chaudhary",
+        "role": "Directeur TI",
+        "shortBio": "En tant que Directeur TI pour la campagne de Robert Fradette et co-fondateur de Citoyens en Action, Venkatesh apporte la puissance de la technologie à la politique de base à Montréal.",
+        "fullBio": "<h3>Directeur TI & Co-fondateur</h3><p>En tant que Directeur TI pour la campagne de Robert Fradette et co-fondateur de Citoyens en Action, Venkatesh apporte la puissance de la technologie à la politique de base à Montréal. Avec un MBA de l'Université McGill et un B.Tech en informatique, il combine la pensée stratégique avec une expertise technique pratique.</p><p>De jour, Venkatesh travaille en tant qu'ingénieur senior en infrastructure, MLOps et DevOps dans une entreprise mondiale, concevant et gérant des systèmes techniques complexes. Le soir, il canalise cette expertise dans la construction de plateformes numériques, la conception de communications et la création d'outils qui aident les citoyens à interagir avec leur gouvernement local.</p><p>Sa vision est simple mais puissante : la technologie doit servir les gens, et non l'inverse. Qu'il s'agisse d'architecturer des solutions d'entreprise ou de créer des sites web pour des mouvements communautaires, Venkatesh s'engage à concevoir des systèmes qui rendent les organisations plus efficaces et la démocratie plus accessible.</p>"
+      },
+      "sandrine": {
+        "name": "Sandrine Rhodius",
+        "role": "Agente de communication",
+        "shortBio": "Agente de communication incontournable dans Milton-Parc, Sandrine informe de nombreux résident.e.s des actualités de son quartier.",
+        "fullBio": "<h3>Agente de communication incontournable dans Milton-Parc</h3><p>Sandrine informe de nombreux résident.e.s des actualités de son quartier.</p><p>Citoyenne Belgo-Canadienne depuis près de 25 années et toujours très attachée à sa culture à travers les chocolats et Tintin.</p><p>Maman de famille nombreuse et bénévole à tout rompre.</p><p>Amoureuse des animaux, de la nature et passionnée d'art multidisciplinaire elle désire apprendre et découvrir chaque jour.</p>"
+      },
+      "andree": {
+        "name": "Andrée Deveault",
+        "role": "Porte-parole - Collectif des résident.es de Milton-Parc",
+        "shortBio": "Professeure à la retraite, porte-parole du Collectif des résident.es de Milton Parc, défendant la sécurité et la vivabilité de la communauté.",
+        "fullBio": "<h3>Professeure à la retraite, porte-parole du Collectif des résident.es de Milton Parc</h3><p>Le Collectif fut fondé par feu Martine Michaud en 2021 pour donner une voix aux résidents du quartier qui, tout en ayant beaucoup de compassion pour les personnes en situation d'itinérance, déplorent de voir leur quartier se détériorer à vue d'œil : insalubrité, criminalité, incivilités, vandalisme. Plus on se rapproche de l'intersection de Milton et Parc, plus la situation est devient invivable.</p><p>Andrée s'est impliquée dans des pétitions, manifestations, soutien à l'Ombudsman, coordination de questions aux séances du conseil d'arrondissement, communication avec les membres du Collectif, et récemment, présence dans les médias.</p><p>Le Collectif demande que les itinérants soient pris en charge dans un centre multi-services adéquat, ce qui signifie la relocalisation d'Open Door afin de redonner à Milton-Parc sa paisibilité d'antan.</p>"
+      }
+    },
     "movementHeading": "Le mouvement derrière nous",
     "movementSubheading": "Écoutez les membres de la communauté qui conduisent le changement dans nos quartiers.",
     "testimonials": {
