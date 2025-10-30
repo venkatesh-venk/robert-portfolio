@@ -41,7 +41,7 @@ export default function TeamPage() {
       role: t('team.venkatesh.role'),
       shortBio: t('team.venkatesh.shortBio'),
       fullBio: t('team.venkatesh.fullBio'),
-      image: null,
+      image: "/images/member_pictures/3_venkateshwara.png",
       email: "-",
       initial: "V"
     },
