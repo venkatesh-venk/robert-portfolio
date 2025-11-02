@@ -21,7 +21,7 @@ export function generateStaticParams() {
 const issuesData: Record<string, any> = {
   'open-door-troubles': {
     title: 'Problèmes Open Door',
-    subtitle: 'Résoudre la crise du refuge pour sans-abri à Milton-Parc',
+    subtitle: 'Résoudre la crise du refuge pour sans-abri à Jeanne-Mance',
     image: '/images/cityline-mtl-plateau.png',
     sections: [
       {
@@ -32,13 +32,13 @@ En conséquence, de grands groupes restent devant les portes principales, les ru
       },
       {
         heading: 'Impact sur la communauté',
-        content: `Cette situation a entraîné une augmentation visible des vols, des cambriolages et de la mendicité agressive, tandis que l'hygiène publique a fortement diminué en raison des crachats, vomissements, urinations et déchets alimentaires autour du centre. Par conséquent, la population de rats a explosé, et l'intersection Milton-Parc, autrefois sûre et accueillante pour les étudiants, est maintenant associée au crime, à la drogue et à l'insécurité.
+        content: `Cette situation a entraîné une augmentation visible des vols, des cambriolages et de la mendicité agressive, tandis que l'hygiène publique a fortement diminué en raison des crachats, vomissements, urinations et déchets alimentaires autour du centre. Par conséquent, la population de rats a explosé, et l'intersection Jeanne-Mance, autrefois sûre et accueillante pour les étudiants, est maintenant associée au crime, à la drogue et à l'insécurité.
 
 Notre communauté a travaillé sans relâche pour proposer des solutions, mais il est clair que l'administration actuelle ne traite pas cette question avec l'urgence qu'elle exige. Le temps des retards est terminé — nous devons agir maintenant.`
       },
       {
         heading: 'Notre engagement',
-        content: `Nous nous engageons à déplacer cette installation Open Door loin de la zone résidentielle et à trouver un endroit parfait avec une installation beaucoup plus grande qui peut correctement servir la population sans-abri tout en respectant la sécurité et la qualité de vie des résidents de Milton-Parc.`
+        content: `Nous nous engageons à déplacer cette installation Open Door loin de la zone résidentielle et à trouver un endroit parfait avec une installation beaucoup plus grande qui peut correctement servir la population sans-abri tout en respectant la sécurité et la qualité de vie des résidents de Jeanne-Mance.`
       }
     ]
   },
@@ -49,9 +49,9 @@ Notre communauté a travaillé sans relâche pour proposer des solutions, mais i
     sections: [
       {
         heading: 'Une communauté diversifiée en danger',
-        content: `Milton-Parc, au cœur du centre-ville de Montréal, rassemble un mélange diversifié de résidents et de visiteurs. La communauté abrite des étudiants, de jeunes couples, des familles avec enfants et des résidents âgés, qui méritent tous de se sentir en sécurité dans leur propre quartier.
+        content: `Jeanne-Mance, au cœur du centre-ville de Montréal, rassemble un mélange diversifié de résidents et de visiteurs. La communauté abrite des étudiants, de jeunes couples, des familles avec enfants et des résidents âgés, qui méritent tous de se sentir en sécurité dans leur propre quartier.
 
-Cependant, malgré des demandes répétées des résidents, la présence policière et les patrouilles restent insuffisantes. Ce manque de sécurité constante a contribué à de graves problèmes, notamment des coups de couteau, du harcèlement et des incidents d'intimidation dans la région de Milton-Parc.`
+Cependant, malgré des demandes répétées des résidents, la présence policière et les patrouilles restent insuffisantes. Ce manque de sécurité constante a contribué à de graves problèmes, notamment des coups de couteau, du harcèlement et des incidents d'intimidation dans la région de Jeanne-Mance.`
       },
       {
         heading: 'Le besoin d\'action',
@@ -59,7 +59,7 @@ Cependant, malgré des demandes répétées des résidents, la présence polici�
       },
       {
         heading: 'Notre solution',
-        content: `C'est pourquoi nous demandons des patrouilles policières accrues et cohérentes — en particulier à vélo. Cela garantirait des temps de réponse plus rapides, une plus grande visibilité et un engagement communautaire plus fort. Une présence policière proactive et fiable découragera non seulement le crime, mais restaurera également la confiance parmi les résidents, les étudiants et les familles que Milton-Parc est à nouveau un endroit sûr et accueillant pour vivre, étudier et élever des enfants.`
+        content: `C'est pourquoi nous demandons des patrouilles policières accrues et cohérentes — en particulier à vélo. Cela garantirait des temps de réponse plus rapides, une plus grande visibilité et un engagement communautaire plus fort. Une présence policière proactive et fiable découragera non seulement le crime, mais restaurera également la confiance parmi les résidents, les étudiants et les familles que Jeanne-Mance est à nouveau un endroit sûr et accueillant pour vivre, étudier et élever des enfants.`
       }
     ]
   },
@@ -80,14 +80,14 @@ Le problème s'est aggravé car les espaces publics autour du refuge pour sans-a
       },
       {
         heading: 'Stratégie globale',
-        content: `Nous exigeons une stratégie complète de gestion des déchets et de lutte antiparasitaire pour Milton-Parc. Cela comprend:
+        content: `Nous exigeons une stratégie complète de gestion des déchets et de lutte antiparasitaire pour Jeanne-Mance. Cela comprend:
 
 • Une collecte des déchets plus fréquente et le nettoyage des trottoirs
 • L'installation de poubelles sécurisées résistantes aux rongeurs
 • Une application plus stricte des violations de déchets
 • Un programme coordonné de lutte antiparasitaire pour réduire la population de rats
 
-En abordant la gestion des déchets et la lutte antiparasitaire avec urgence, nous pouvons restaurer Milton-Parc en une communauté propre, sûre et accueillante qui reflète la fierté de ses résidents.`
+En abordant la gestion des déchets et la lutte antiparasitaire avec urgence, nous pouvons restaurer Jeanne-Mance en une communauté propre, sûre et accueillante qui reflète la fierté de ses résidents.`
       }
     ]
   },
@@ -98,7 +98,7 @@ En abordant la gestion des déchets et la lutte antiparasitaire avec urgence, no
     sections: [
       {
         heading: 'La crise du logement',
-        content: `L'augmentation des coûts de logement à Milton-Parc et au Plateau Mont-Royal met les maisons abordables hors de portée des étudiants, des jeunes familles et des personnes âgées. En même temps, les appartements mal entretenus et les propriétaires négligents créent des conditions de vie dangereuses et instables.`
+        content: `L'augmentation des coûts de logement à Jeanne-Mance et au Plateau Mont-Royal met les maisons abordables hors de portée des étudiants, des jeunes familles et des personnes âgées. En même temps, les appartements mal entretenus et les propriétaires négligents créent des conditions de vie dangereuses et instables.`
       },
       {
         heading: 'Nos solutions proposées',
@@ -117,7 +117,7 @@ En abordant ces problèmes, nous pouvons nous assurer que les deux quartiers res
     sections: [
       {
         heading: 'État actuel de nos parcs',
-        content: `Milton-Parc et le Plateau Mont-Royal abritent des communautés dynamiques, mais les parcs et terrains de jeux souffrent souvent de négligence, d'un mauvais entretien, d'un éclairage insuffisant et d'installations limitées. Ces espaces verts sont essentiels pour que les étudiants, les familles et les personnes âgées puissent se détendre, faire de l'exercice et socialiser en toute sécurité.`
+        content: `Jeanne-Mance et le Plateau Mont-Royal abritent des communautés dynamiques, mais les parcs et terrains de jeux souffrent souvent de négligence, d'un mauvais entretien, d'un éclairage insuffisant et d'installations limitées. Ces espaces verts sont essentiels pour que les étudiants, les familles et les personnes âgées puissent se détendre, faire de l'exercice et socialiser en toute sécurité.`
       },
       {
         heading: 'Nos solutions proposées',
@@ -137,7 +137,7 @@ Les parcs bien entretenus contribuent à des communautés plus saines et plus he
     sections: [
       {
         heading: 'Préoccupations actuelles en matière de sécurité',
-        content: `Les rues achalandées et les intersections de Milton-Parc et du Plateau Mont-Royal posent des risques pour les piétons, les cyclistes et les conducteurs. Les véhicules en excès de vitesse, les passages pour piétons mal marqués et les pistes cyclables inadéquates ont déjà entraîné des accidents et des quasi-accidents.`
+        content: `Les rues achalandées et les intersections de Jeanne-Mance et du Plateau Mont-Royal posent des risques pour les piétons, les cyclistes et les conducteurs. Les véhicules en excès de vitesse, les passages pour piétons mal marqués et les pistes cyclables inadéquates ont déjà entraîné des accidents et des quasi-accidents.`
       },
       {
         heading: 'Nos solutions proposées',
@@ -177,7 +177,7 @@ Une communauté prospère doit aussi être habitable — où les étudiants, les
     sections: [
       {
         heading: 'Soutenir les petites entreprises',
-        content: `Les petites entreprises de Milton-Parc et du Plateau Mont-Royal ont du mal en raison des préoccupations en matière de sécurité, des problèmes de propreté et de la concurrence des grandes chaînes. En même temps, les résidents se sentent souvent déconnectés de la prise de décision municipale.`
+        content: `Les petites entreprises de Jeanne-Mance et du Plateau Mont-Royal ont du mal en raison des préoccupations en matière de sécurité, des problèmes de propreté et de la concurrence des grandes chaînes. En même temps, les résidents se sentent souvent déconnectés de la prise de décision municipale.`
       },
       {
         heading: 'Nos solutions proposées',

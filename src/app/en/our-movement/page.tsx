@@ -47,7 +47,7 @@ export default function OurMovementPage() {
   ];
 
   const achievements = [
-    "Successfully advocated for increased police presence in Milton-Parc area",
+    "Successfully advocated for increased police presence in Jeanne-Mance area",
     "Led community consultations with over 250+ residents",
     "Developed comprehensive housing affordability proposals",
     "Partnered with local organizations on environmental initiatives",

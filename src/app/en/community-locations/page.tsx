@@ -15,9 +15,9 @@ export default function CommunityLocationsPage() {
   // Key locations/neighborhoods
   const locations = [
     {
-      name: "Milton-Parc",
+      name: "Jeanne-Mance",
       description: "Heart of student life with active community engagement. We're addressing safety concerns and improving quality of life.",
-      address: "Plateau-Mont-Royal District",
+      address: "Plateau-Mont-Royal Burrough",
       focus: ["Student Safety", "Housing Quality", "Community Events"],
       contactPerson: "Local Coordinator",
       image: "/images/montreal_paint.jpeg"
@@ -25,15 +25,15 @@ export default function CommunityLocationsPage() {
     {
       name: "Mile End",
       description: "Vibrant cultural hub where we're working on small business support and traffic safety improvements.",
-      address: "Plateau-Mont-Royal District",
+      address: "Plateau-Mont-Royal Burrough",
       focus: ["Small Business Support", "Traffic Safety", "Cultural Events"],
       contactPerson: "Community Liaison",
       image: "/images/cityline-mtl-plateau.png"
     },
     {
-      name: "Plateau East",
+      name: "De Lorimier",
       description: "Residential neighborhoods where we focus on parks, green spaces, and family-friendly initiatives.",
-      address: "Plateau-Mont-Royal District",
+      address: "Plateau-Mont-Royal Burrough",
       focus: ["Parks & Recreation", "Family Services", "Green Spaces"],
       contactPerson: "Neighborhood Organizer",
       image: "/images/mount_royal_image.png"
@@ -45,28 +45,28 @@ export default function CommunityLocationsPage() {
     {
       icon: Calendar,
       title: "Community Town Halls",
-      schedule: "Every 2nd Tuesday, 7:00 PM",
-      location: "Milton-Parc Community Center",
+      schedule: "-",
+      location: "Jeanne-Mance Community Center",
       description: "Monthly gatherings where residents share concerns, ask questions, and help shape our policies. Your voice matters!",
-      nextDate: "Next meeting: January 9, 2024",
+      nextDate: "-",
       color: "bg-blue-100 text-blue-600"
     },
     {
       icon: Users,
       title: "Volunteer Events",
-      schedule: "Saturdays, 10:00 AM - 2:00 PM",
+      schedule: "-",
       location: "Various neighborhood locations",
       description: "Join us for community clean-ups, park beautification, and neighborhood improvement projects.",
-      nextDate: "Next event: Park Clean-up - January 13, 2024",
+      nextDate: "-",
       color: "bg-green-100 text-green-600"
     },
     {
       icon: Megaphone,
       title: "Door-to-Door Outreach",
-      schedule: "Daily, 2:00 PM - 6:00 PM",
+      schedule: "-",
       location: "Throughout Plateau-Mont-Royal",
       description: "Meet our team face-to-face. We visit every street to listen to your concerns and share our vision.",
-      nextDate: "Currently active in Mile End",
+      nextDate: "-",
       color: "bg-orange-100 text-orange-600"
     }
   ];
@@ -106,7 +106,7 @@ export default function CommunityLocationsPage() {
                 In Your <span className="text-primary-400">Community</span>
               </h1>
               <p className="text-xl text-white/90">
-                From Milton-Parc to Mile End - we&apos;re active in your neighborhood with town halls, volunteer events, and door-to-door outreach.
+                From Jeanne-Mance to Mile End - we&apos;re active in your neighborhood with town halls, volunteer events, and door-to-door outreach.
               </p>
             </motion.div>
           </div>
@@ -148,7 +148,7 @@ export default function CommunityLocationsPage() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">
               <p className="text-white text-lg font-semibold bg-black/50 backdrop-blur-sm px-4 py-2 rounded-lg inline-block">
-                📍 Milton-Parc • Mile End • Plateau East
+                📍 Jeanne-Mance • Mile End • De Lorimier
               </p>
             </div>
           </motion.div>

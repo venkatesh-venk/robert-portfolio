@@ -161,7 +161,7 @@ export default function TeamPage() {
                 Candidate for City Council
               </p>
               <p className="text-gray-700 text-lg">
-                Founder of Citoyens en Action, a movement born in Milton-Parc and now evolving into a new officially recognized municipal political party, he is running as an independent candidate in the 2025 municipal elections in the Plateau-Mont-Royal district.
+                Founder of Citoyens en Action, a movement born in Jeanne-Mance and now evolving into a new officially recognized municipal political party, he is running as an independent candidate in the 2025 municipal elections in the Plateau-Mont-Royal burrough.
               </p>
               <p className="text-gray-700 text-lg">
                 As a professional in Social Work and Ecology, he has been employed for the past ten years by the CIUSSS Centre-Ouest-de-l&apos;Île-de-Montréal&apos;s Info-Social 811 service. He is also the owner of a Land and Wildlife management company that has collaborated with the Biodôme, the City of Montréal, Longueuil and St-Bruno, Hydro-Québec, Sépaq, and the Ministry of Transport on various environmental protection projects.

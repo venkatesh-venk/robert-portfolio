@@ -39,19 +39,19 @@ const Community = () => {
   // Key locations/ridings
   const locations = [
     {
-      name: "Milton-Parc",
+      name: "Jeanne-Mance",
       description: t('locations.miltonParc'),
-      address: "Plateau-Mont-Royal District"
+      address: "Plateau-Mont-Royal Burrough"
     },
     {
       name: "Mile End",
       description: t('locations.mileEnd'),
-      address: "Plateau-Mont-Royal District"
+      address: "Plateau-Mont-Royal Burrough"
     },
     {
-      name: "Plateau East",
+      name: "De Lorimier",
       description: t('locations.plateauEast'),
-      address: "Plateau-Mont-Royal District"
+      address: "Plateau-Mont-Royal Burrough"
     }
   ];
 

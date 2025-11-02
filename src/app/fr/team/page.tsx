@@ -161,7 +161,7 @@ export default function TeamPage() {
                 Candidat au conseil municipal
               </p>
               <p className="text-gray-700 text-lg">
-                Fondateur de Citoyens en Action, un mouvement né dans Milton-Parc en phase de devenir un nouveau parti politique municipal officiellement reconnu, il en est le premier candidat indépendant de ce mouvement aux élections municipales 2025 dans le Plateau Mont-Royal.
+                Fondateur de Citoyens en Action, un mouvement né dans Jeanne-Mance en phase de devenir un nouveau parti politique municipal officiellement reconnu, il en est le premier candidat indépendant de ce mouvement aux élections municipales 2025 dans le Plateau Mont-Royal.
               </p>
               <p className="text-gray-700 text-lg">
                 Professionnel en Travail Social et en Écologie, Robert est un employé du CIUSSS Centre-Ouest de-l&apos;île-de-Montréal pour le service Info-Social 811 depuis 10 ans. Il est aussi propriétaire d&apos;une entreprise de gestion du territoire et de la faune qui a collaborée avec le Biodôme, la ville de Montréal, Longueuil et St-Bruno, Hydro-Québec, la Sépaq, et le Ministère des Transports sur des projets de protection de l&apos;Environnement.

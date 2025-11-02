@@ -15,7 +15,7 @@ export default function CommunityLocationsPage() {
   // Key locations/neighborhoods
   const locations = [
     {
-      name: "Milton-Parc",
+      name: "Jeanne-Mance",
       description: "Cœur de la vie étudiante avec un engagement communautaire actif. Nous abordons les préoccupations de sécurité et améliorons la qualité de vie.",
       address: "Arrondissement Plateau-Mont-Royal",
       focus: ["Sécurité étudiante", "Qualité du logement", "Événements communautaires"],
@@ -46,7 +46,7 @@ export default function CommunityLocationsPage() {
       icon: Calendar,
       title: "Assemblées publiques communautaires",
       schedule: "Chaque 2e mardi, 19h00",
-      location: "Centre communautaire Milton-Parc",
+      location: "Centre communautaire Jeanne-Mance",
       description: "Rassemblements mensuels où les résidents partagent leurs préoccupations, posent des questions et aident à façonner nos politiques. Votre voix compte !",
       nextDate: "Prochaine réunion : 9 janvier 2024",
       color: "bg-blue-100 text-blue-600"
@@ -106,7 +106,7 @@ export default function CommunityLocationsPage() {
                 Dans votre <span className="text-primary-400">communauté</span>
               </h1>
               <p className="text-xl text-white/90">
-                De Milton-Parc au Mile End - nous sommes actifs dans votre quartier avec des assemblées publiques, des événements de bénévolat et du porte-à-porte.
+                De Jeanne-Mance au Mile End - nous sommes actifs dans votre quartier avec des assemblées publiques, des événements de bénévolat et du porte-à-porte.
               </p>
             </motion.div>
           </div>
@@ -148,7 +148,7 @@ export default function CommunityLocationsPage() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">
               <p className="text-white text-lg font-semibold bg-black/50 backdrop-blur-sm px-4 py-2 rounded-lg inline-block">
-                📍 Milton-Parc • Mile End • Plateau Est
+                📍 Jeanne-Mance • Mile End • Plateau Est
               </p>
             </div>
           </motion.div>
