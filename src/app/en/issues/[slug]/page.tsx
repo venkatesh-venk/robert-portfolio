@@ -21,7 +21,7 @@ export function generateStaticParams() {
 const issuesData: Record<string, any> = {
   'open-door-troubles': {
     title: 'Open Door Troubles',
-    subtitle: 'Addressing the homeless shelter crisis in Milton-Parc',
+    subtitle: 'Addressing the homeless shelter crisis in Jeanne-Mance',
     image: '/images/cityline-mtl-plateau.png',
     sections: [
       {
@@ -32,13 +32,13 @@ As a result, large groups remain in front of neighbouring residents' main doors,
       },
       {
         heading: 'Community Impact',
-        content: `This situation has led to a visible increase in theft, robberies, and aggressive begging, while public hygiene has declined sharply due to spitting, vomiting, urination, and food waste around the center. Consequently, the rat population has exploded, and the once student-friendly, safe Milton-Parc intersection has become associated with crime, drugs, and insecurity.
+        content: `This situation has led to a visible increase in theft, robberies, and aggressive begging, while public hygiene has declined sharply due to spitting, vomiting, urination, and food waste around the center. Consequently, the rat population has exploded, and the once student-friendly, safe Jeanne-Mance intersection has become associated with crime, drugs, and insecurity.
 
 Our community has been working tirelessly to propose solutions, but it is clear that the current administration is not treating this matter with the urgency it demands. The time for delay is over—we must take action now.`
       },
       {
         heading: 'Our Commitment',
-        content: `We are committed to moving this Open Door facility away from the residential area and finding a perfect spot with a much bigger facility that can properly serve the homeless population while respecting the safety and quality of life of Milton-Parc residents.`
+        content: `We are committed to moving this Open Door facility away from the residential area and finding a perfect spot with a much bigger facility that can properly serve the homeless population while respecting the safety and quality of life of Jeanne-Mance residents.`
       }
     ]
   },
@@ -49,9 +49,9 @@ Our community has been working tirelessly to propose solutions, but it is clear 
     sections: [
       {
         heading: 'A Diverse Community at Risk',
-        content: `Milton-Parc, at the heart of Downtown Montreal, brings together a diverse mix of residents and visitors. The community is home to students, young couples, families with children, and elderly residents, all of whom deserve to feel safe in their own neighborhood.
+        content: `Jeanne-Mance, at the heart of Downtown Montreal, brings together a diverse mix of residents and visitors. The community is home to students, young couples, families with children, and elderly residents, all of whom deserve to feel safe in their own neighborhood.
 
-However, despite repeated requests from residents, police presence and patrols remain insufficient. This lack of consistent security has contributed to serious issues, including knife stabbings, harassment, and bullying incidents in the Milton-Parc area.`
+However, despite repeated requests from residents, police presence and patrols remain insufficient. This lack of consistent security has contributed to serious issues, including knife stabbings, harassment, and bullying incidents in the Jeanne-Mance area.`
       },
       {
         heading: 'The Need for Action',
@@ -59,7 +59,7 @@ However, despite repeated requests from residents, police presence and patrols r
       },
       {
         heading: 'Our Solution',
-        content: `That is why we are calling for increased, consistent police patrols — particularly on bicycles. This would ensure quicker response times, greater visibility, and stronger community engagement. A proactive and reliable police presence will not only discourage crime but will also restore confidence among residents, students, and families that Milton-Parc is once again a safe and welcoming place to live, study, and raise children.`
+        content: `That is why we are calling for increased, consistent police patrols — particularly on bicycles. This would ensure quicker response times, greater visibility, and stronger community engagement. A proactive and reliable police presence will not only discourage crime but will also restore confidence among residents, students, and families that Jeanne-Mance is once again a safe and welcoming place to live, study, and raise children.`
       }
     ]
   },
@@ -80,14 +80,14 @@ The problem has worsened as public spaces around the homeless shelter and busy i
       },
       {
         heading: 'Comprehensive Strategy',
-        content: `We are demanding a comprehensive garbage and pest control strategy for Milton-Parc. This includes:
+        content: `We are demanding a comprehensive garbage and pest control strategy for Jeanne-Mance. This includes:
 
 • More frequent waste collection and cleaning of sidewalks
 • Installing secure, rodent-resistant garbage bins
 • Stronger enforcement of littering violations
 • A coordinated pest control program to reduce the rat population
 
-By addressing waste management and pest control with urgency, we can restore Milton-Parc to a clean, safe, and welcoming community that reflects the pride of its residents.`
+By addressing waste management and pest control with urgency, we can restore Jeanne-Mance to a clean, safe, and welcoming community that reflects the pride of its residents.`
       }
     ]
   },
@@ -98,7 +98,7 @@ By addressing waste management and pest control with urgency, we can restore Mil
     sections: [
       {
         heading: 'The Housing Crisis',
-        content: `Rising housing costs in Milton-Parc and Plateau Mont-Royal are putting affordable homes out of reach for students, young families, and seniors. At the same time, poorly maintained apartments and neglectful landlords are creating unsafe and unstable living conditions.`
+        content: `Rising housing costs in Jeanne-Mance and Plateau Mont-Royal are putting affordable homes out of reach for students, young families, and seniors. At the same time, poorly maintained apartments and neglectful landlords are creating unsafe and unstable living conditions.`
       },
       {
         heading: 'Our Proposed Solutions',
@@ -117,7 +117,7 @@ By addressing these issues, we can ensure that both neighborhoods remain inclusi
     sections: [
       {
         heading: 'Current State of Our Parks',
-        content: `Milton-Parc and Plateau Mont-Royal are home to vibrant communities, yet parks and playgrounds often suffer from neglect, poor maintenance, insufficient lighting, and limited facilities. These green spaces are essential for students, families, and seniors to relax, exercise, and socialize safely.`
+        content: `Jeanne-Mance and Plateau Mont-Royal are home to vibrant communities, yet parks and playgrounds often suffer from neglect, poor maintenance, insufficient lighting, and limited facilities. These green spaces are essential for students, families, and seniors to relax, exercise, and socialize safely.`
       },
       {
         heading: 'Our Proposed Solutions',
@@ -137,7 +137,7 @@ Well-maintained parks contribute to healthier, happier communities and encourage
     sections: [
       {
         heading: 'Current Safety Concerns',
-        content: `Busy streets and intersections in Milton-Parc and Plateau Mont-Royal pose risks for pedestrians, cyclists, and drivers alike. Speeding vehicles, poorly marked crosswalks, and inadequate bike lanes have already resulted in accidents and near-misses.`
+        content: `Busy streets and intersections in Jeanne-Mance and Plateau Mont-Royal pose risks for pedestrians, cyclists, and drivers alike. Speeding vehicles, poorly marked crosswalks, and inadequate bike lanes have already resulted in accidents and near-misses.`
       },
       {
         heading: 'Our Proposed Solutions',
@@ -177,7 +177,7 @@ A thriving community must also be a livable one — where students, families, an
     sections: [
       {
         heading: 'Supporting Small Businesses',
-        content: `Small businesses in Milton-Parc and Plateau Mont-Royal are struggling due to safety concerns, cleanliness issues, and competition from large chains. At the same time, residents often feel disconnected from municipal decision-making.`
+        content: `Small businesses in Jeanne-Mance and Plateau Mont-Royal are struggling due to safety concerns, cleanliness issues, and competition from large chains. At the same time, residents often feel disconnected from municipal decision-making.`
       },
       {
         heading: 'Our Proposed Solutions',
