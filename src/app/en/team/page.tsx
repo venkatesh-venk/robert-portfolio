@@ -50,7 +50,7 @@ export default function TeamPage() {
       role: t('team.sandrine.role'),
       shortBio: t('team.sandrine.shortBio'),
       fullBio: t('team.sandrine.fullBio'),
-      image: "/images/member_pictures/4_Sandrine Rhodius.png",
+      image: "/images/member_pictures/4_sanderine.png",
       email: "-",
       initial: "S"
     },
